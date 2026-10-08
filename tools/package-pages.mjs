@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'..');
+const pages=path.join(root,'pages');
+await fs.mkdir(path.join(pages,'V1'),{recursive:true});
+await fs.cp(path.join(root,'dist'),path.join(pages,'V1'),{recursive:true});
+await fs.writeFile(path.join(pages,'index.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=V1/"><title>Yoshi + Moshi — V1</title><a href="V1/">Open Yoshi + Moshi V1</a></html>');
+await fs.copyFile(path.join(root,'dist','404.html'),path.join(pages,'404.html'));
+await fs.copyFile(path.join(root,'dist','robots.txt'),path.join(pages,'robots.txt'));
+await fs.writeFile(path.join(pages,'.nojekyll'),'');
+console.log('GitHub Pages artifact prepared under /V1/');

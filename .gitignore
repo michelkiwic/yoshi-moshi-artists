@@ -1,0 +1,6 @@
+node_modules/
+dist/
+pages/
+.import-cache/
+*.log
+.DS_Store

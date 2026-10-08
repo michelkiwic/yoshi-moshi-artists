@@ -1,0 +1,1328 @@
+{
+  "/wp-content/themes/enfold-child/assets/yoshi-transparent-v2.png": {
+    "src": "media/yoshi-transparent-v2-3281934d063c-1121.webp",
+    "width": 1121,
+    "height": 1403,
+    "variants": [
+      {
+        "src": "media/yoshi-transparent-v2-3281934d063c-360.webp",
+        "width": 360,
+        "bytes": 34210
+      },
+      {
+        "src": "media/yoshi-transparent-v2-3281934d063c-720.webp",
+        "width": 720,
+        "bytes": 89446
+      },
+      {
+        "src": "media/yoshi-transparent-v2-3281934d063c-1121.webp",
+        "width": 1121,
+        "bytes": 165592
+      }
+    ],
+    "originalBytes": 1342260
+  },
+  "/wp-content/themes/enfold-child/assets/moshi-transparent-v2.png": {
+    "src": "media/moshi-transparent-v2-36167fddcefd-1158.webp",
+    "width": 1158,
+    "height": 1358,
+    "variants": [
+      {
+        "src": "media/moshi-transparent-v2-36167fddcefd-360.webp",
+        "width": 360,
+        "bytes": 42076
+      },
+      {
+        "src": "media/moshi-transparent-v2-36167fddcefd-720.webp",
+        "width": 720,
+        "bytes": 121234
+      },
+      {
+        "src": "media/moshi-transparent-v2-36167fddcefd-1158.webp",
+        "width": 1158,
+        "bytes": 246336
+      }
+    ],
+    "originalBytes": 1800448
+  },
+  "/wp-content/themes/enfold-child/assets/logo-yoshi-moshi-sharp-v2.png": {
+    "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-955.webp",
+    "width": 955,
+    "height": 1647,
+    "variants": [
+      {
+        "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-360.webp",
+        "width": 360,
+        "bytes": 41530
+      },
+      {
+        "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-720.webp",
+        "width": 720,
+        "bytes": 117932
+      },
+      {
+        "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-955.webp",
+        "width": 955,
+        "bytes": 166866
+      }
+    ],
+    "originalBytes": 573505
+  },
+  "/wp-content/themes/enfold-child/assets/header-drip-left-white-v6.png": {
+    "src": "media/header-drip-left-white-v6-c56398803fee-1536.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "media/header-drip-left-white-v6-c56398803fee-360.webp",
+        "width": 360,
+        "bytes": 11048
+      },
+      {
+        "src": "media/header-drip-left-white-v6-c56398803fee-720.webp",
+        "width": 720,
+        "bytes": 26082
+      },
+      {
+        "src": "media/header-drip-left-white-v6-c56398803fee-1200.webp",
+        "width": 1200,
+        "bytes": 55350
+      },
+      {
+        "src": "media/header-drip-left-white-v6-c56398803fee-1536.webp",
+        "width": 1536,
+        "bytes": 73266
+      }
+    ],
+    "originalBytes": 446487
+  },
+  "/wp-content/themes/enfold-child/assets/header-drip-right-white-v6.png": {
+    "src": "media/header-drip-right-white-v6-b158db2fd1a8-1536.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "media/header-drip-right-white-v6-b158db2fd1a8-360.webp",
+        "width": 360,
+        "bytes": 10168
+      },
+      {
+        "src": "media/header-drip-right-white-v6-b158db2fd1a8-720.webp",
+        "width": 720,
+        "bytes": 24600
+      },
+      {
+        "src": "media/header-drip-right-white-v6-b158db2fd1a8-1200.webp",
+        "width": 1200,
+        "bytes": 53006
+      },
+      {
+        "src": "media/header-drip-right-white-v6-b158db2fd1a8-1536.webp",
+        "width": 1536,
+        "bytes": 67046
+      }
+    ],
+    "originalBytes": 392650
+  },
+  "/wp-content/uploads/2026/09/biennale_latitudini_arte_yoshi_moshi-1920x1280-1.png": {
+    "src": "media/biennale-latitudini-arte-yoshi-moshi-1920x1280-1-833409e2a581-1536.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "media/biennale-latitudini-arte-yoshi-moshi-1920x1280-1-833409e2a581-360.webp",
+        "width": 360,
+        "bytes": 11436
+      },
+      {
+        "src": "media/biennale-latitudini-arte-yoshi-moshi-1920x1280-1-833409e2a581-720.webp",
+        "width": 720,
+        "bytes": 34082
+      },
+      {
+        "src": "media/biennale-latitudini-arte-yoshi-moshi-1920x1280-1-833409e2a581-1200.webp",
+        "width": 1200,
+        "bytes": 66840
+      },
+      {
+        "src": "media/biennale-latitudini-arte-yoshi-moshi-1920x1280-1-833409e2a581-1536.webp",
+        "width": 1536,
+        "bytes": 89818
+      }
+    ],
+    "originalBytes": 1404708
+  },
+  "/wp-content/uploads/2026/01/Moshi-The-Tower.jpg": {
+    "src": "media/Moshi-The-Tower-cfc3d53150ad-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/Moshi-The-Tower-cfc3d53150ad-360.webp",
+        "width": 360,
+        "bytes": 4216
+      },
+      {
+        "src": "media/Moshi-The-Tower-cfc3d53150ad-720.webp",
+        "width": 720,
+        "bytes": 10062
+      },
+      {
+        "src": "media/Moshi-The-Tower-cfc3d53150ad-1200.webp",
+        "width": 1200,
+        "bytes": 19684
+      },
+      {
+        "src": "media/Moshi-The-Tower-cfc3d53150ad-1800.webp",
+        "width": 1800,
+        "bytes": 34990
+      }
+    ],
+    "originalBytes": 589469
+  },
+  "/wp-content/uploads/2026/01/Tower-Buenos-Aires.jpg": {
+    "src": "media/Tower-Buenos-Aires-7f06ee6066c2-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/Tower-Buenos-Aires-7f06ee6066c2-360.webp",
+        "width": 360,
+        "bytes": 3512
+      },
+      {
+        "src": "media/Tower-Buenos-Aires-7f06ee6066c2-720.webp",
+        "width": 720,
+        "bytes": 7950
+      },
+      {
+        "src": "media/Tower-Buenos-Aires-7f06ee6066c2-1200.webp",
+        "width": 1200,
+        "bytes": 14862
+      },
+      {
+        "src": "media/Tower-Buenos-Aires-7f06ee6066c2-1800.webp",
+        "width": 1800,
+        "bytes": 26026
+      }
+    ],
+    "originalBytes": 1018054
+  },
+  "/wp-content/uploads/2025/02/tribute-to-yoshi-moshi.jpg": {
+    "src": "media/tribute-to-yoshi-moshi-c8be69077690-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/tribute-to-yoshi-moshi-c8be69077690-360.webp",
+        "width": 360,
+        "bytes": 17536
+      },
+      {
+        "src": "media/tribute-to-yoshi-moshi-c8be69077690-720.webp",
+        "width": 720,
+        "bytes": 52654
+      },
+      {
+        "src": "media/tribute-to-yoshi-moshi-c8be69077690-1200.webp",
+        "width": 1200,
+        "bytes": 110070
+      },
+      {
+        "src": "media/tribute-to-yoshi-moshi-c8be69077690-1800.webp",
+        "width": 1800,
+        "bytes": 192066
+      }
+    ],
+    "originalBytes": 1102864
+  },
+  "/wp-content/uploads/_optimized/2024/11/yoshi-moshi-tele-nord-genoa.mp4": {
+    "src": "media/yoshi-moshi-tele-nord-genoa-a9dc8d393ad9.mp4",
+    "bytes": 1954121
+  },
+  "/wp-content/uploads/2024/08/Il-Secolo-XIX.pdf": {
+    "src": "media/Il-Secolo-XIX-6208a0acbcda.pdf",
+    "bytes": 511274
+  },
+  "/wp-content/uploads/2024/11/nina_staehli_review24_6.jpg": {
+    "src": "media/nina-staehli-review24-6-c3627ba8a33e-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/nina-staehli-review24-6-c3627ba8a33e-360.webp",
+        "width": 360,
+        "bytes": 16504
+      },
+      {
+        "src": "media/nina-staehli-review24-6-c3627ba8a33e-720.webp",
+        "width": 720,
+        "bytes": 50562
+      },
+      {
+        "src": "media/nina-staehli-review24-6-c3627ba8a33e-1200.webp",
+        "width": 1200,
+        "bytes": 127548
+      },
+      {
+        "src": "media/nina-staehli-review24-6-c3627ba8a33e-1800.webp",
+        "width": 1800,
+        "bytes": 309480
+      }
+    ],
+    "originalBytes": 1958403
+  },
+  "/wp-content/uploads/2023/09/Yoshi-Moshi-Comeback.jpg": {
+    "src": "media/Yoshi-Moshi-Comeback-5f272883474a-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/Yoshi-Moshi-Comeback-5f272883474a-360.webp",
+        "width": 360,
+        "bytes": 24118
+      },
+      {
+        "src": "media/Yoshi-Moshi-Comeback-5f272883474a-720.webp",
+        "width": 720,
+        "bytes": 97598
+      },
+      {
+        "src": "media/Yoshi-Moshi-Comeback-5f272883474a-1200.webp",
+        "width": 1200,
+        "bytes": 253092
+      },
+      {
+        "src": "media/Yoshi-Moshi-Comeback-5f272883474a-1800.webp",
+        "width": 1800,
+        "bytes": 458392
+      }
+    ],
+    "originalBytes": 2661310
+  },
+  "/wp-content/uploads/2023/08/yoshi-alejandro-thornton.jpg": {
+    "src": "media/yoshi-alejandro-thornton-a991813ad9ec-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/yoshi-alejandro-thornton-a991813ad9ec-360.webp",
+        "width": 360,
+        "bytes": 8044
+      },
+      {
+        "src": "media/yoshi-alejandro-thornton-a991813ad9ec-720.webp",
+        "width": 720,
+        "bytes": 16950
+      },
+      {
+        "src": "media/yoshi-alejandro-thornton-a991813ad9ec-1200.webp",
+        "width": 1200,
+        "bytes": 29886
+      },
+      {
+        "src": "media/yoshi-alejandro-thornton-a991813ad9ec-1800.webp",
+        "width": 1800,
+        "bytes": 51564
+      }
+    ],
+    "originalBytes": 499380
+  },
+  "/wp-content/uploads/2023/07/yoshi_hablame_2.jpg": {
+    "src": "media/yoshi-hablame-2-4ea02426aef4-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "media/yoshi-hablame-2-4ea02426aef4-360.webp",
+        "width": 360,
+        "bytes": 22198
+      },
+      {
+        "src": "media/yoshi-hablame-2-4ea02426aef4-720.webp",
+        "width": 720,
+        "bytes": 99002
+      },
+      {
+        "src": "media/yoshi-hablame-2-4ea02426aef4-1200.webp",
+        "width": 1200,
+        "bytes": 244838
+      },
+      {
+        "src": "media/yoshi-hablame-2-4ea02426aef4-1280.webp",
+        "width": 1280,
+        "bytes": 275126
+      }
+    ],
+    "originalBytes": 1035128
+  },
+  "/wp-content/uploads/2023/10/Nidwaldner-Museum-Nina-Staehli-Yoshi-Moshi.pdf": {
+    "src": "media/Nidwaldner-Museum-Nina-Staehli-Yoshi-Moshi-3e58c3a33c5d.pdf",
+    "bytes": 2947407
+  },
+  "/wp-content/uploads/2022/11/yoshi-moshi-1.jpg": {
+    "src": "media/yoshi-moshi-1-f6a3dc5b3f80-1024.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-1-f6a3dc5b3f80-360.webp",
+        "width": 360,
+        "bytes": 24956
+      },
+      {
+        "src": "media/yoshi-moshi-1-f6a3dc5b3f80-720.webp",
+        "width": 720,
+        "bytes": 79766
+      },
+      {
+        "src": "media/yoshi-moshi-1-f6a3dc5b3f80-1024.webp",
+        "width": 1024,
+        "bytes": 139768
+      }
+    ],
+    "originalBytes": 469975
+  },
+  "/wp-content/uploads/_optimized/2024/11/the-resistance-buch.mp4": {
+    "src": "media/the-resistance-buch-f5d96255111b.mp4",
+    "bytes": 709058
+  },
+  "/wp-content/uploads/2022/07/performance-1.gif": {
+    "src": "media/performance-1-b32300dfaf7a-poster.webp",
+    "width": 600,
+    "height": 338,
+    "originalBytes": 5192105,
+    "video": {
+      "src": "media/performance-1-b32300dfaf7a.mp4",
+      "bytes": 395804
+    },
+    "poster": {
+      "src": "media/performance-1-b32300dfaf7a-poster.webp",
+      "width": 600,
+      "height": 338
+    }
+  },
+  "/wp-content/uploads/2025/02/tribute-yoshi-moshi-495x400.gif": {
+    "src": "media/tribute-yoshi-moshi-495x400-586ce76210c4-poster.webp",
+    "width": 495,
+    "height": 400,
+    "originalBytes": 116124,
+    "video": {
+      "src": "media/tribute-yoshi-moshi-495x400-586ce76210c4.mp4",
+      "bytes": 23390
+    },
+    "poster": {
+      "src": "media/tribute-yoshi-moshi-495x400-586ce76210c4-poster.webp",
+      "width": 495,
+      "height": 400
+    }
+  },
+  "/wp-content/uploads/2022/11/yoshi-moshi-universo-immersivo-new-2.gif": {
+    "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2-poster.webp",
+    "width": 484,
+    "height": 338,
+    "originalBytes": 4491353,
+    "video": {
+      "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2.mp4",
+      "bytes": 195859
+    },
+    "poster": {
+      "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2-poster.webp",
+      "width": 484,
+      "height": 338
+    }
+  },
+  "/wp-content/uploads/2022/07/culture-clash.gif": {
+    "src": "media/culture-clash-bbe821e56dbd-poster.webp",
+    "width": 600,
+    "height": 338,
+    "originalBytes": 1631469,
+    "video": {
+      "src": "media/culture-clash-bbe821e56dbd.mp4",
+      "bytes": 86220
+    },
+    "poster": {
+      "src": "media/culture-clash-bbe821e56dbd-poster.webp",
+      "width": 600,
+      "height": 338
+    }
+  },
+  "/wp-content/uploads/2022/07/idee-710x375.gif": {
+    "src": "media/idee-710x375-ac41a5367957-poster.webp",
+    "width": 710,
+    "height": 375,
+    "originalBytes": 187082,
+    "video": {
+      "src": "media/idee-710x375-ac41a5367957.mp4",
+      "bytes": 29759
+    },
+    "poster": {
+      "src": "media/idee-710x375-ac41a5367957-poster.webp",
+      "width": 710,
+      "height": 375
+    }
+  },
+  "/wp-content/uploads/_optimized/2023/10/yoshi-moshi-genova.mp4": {
+    "src": "media/yoshi-moshi-genova-b56ce4edc5d9.mp4",
+    "bytes": 3346331
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-genova-poster.webp": {
+    "src": "media/yoshi-moshi-genova-poster-deaa6a3df289-640.webp",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-genova-poster-deaa6a3df289-360.webp",
+        "width": 360,
+        "bytes": 8712
+      },
+      {
+        "src": "media/yoshi-moshi-genova-poster-deaa6a3df289-640.webp",
+        "width": 640,
+        "bytes": 15186
+      }
+    ],
+    "originalBytes": 14972
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-genova-loop.mp4": {
+    "src": "media/yoshi-moshi-genova-loop-ea9797c7a1f7.mp4",
+    "bytes": 376238
+  },
+  "/wp-content/uploads/_optimized/2023/10/yoshi-moshi-bar-delle-vigne-rando.mp4": {
+    "src": "media/yoshi-moshi-bar-delle-vigne-rando-0c57af70f05d.mp4",
+    "bytes": 8626946
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-bar-delle-vigne-rando-poster.webp": {
+    "src": "media/yoshi-moshi-bar-delle-vigne-rando-poster-ac807f871428-640.webp",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-bar-delle-vigne-rando-poster-ac807f871428-360.webp",
+        "width": 360,
+        "bytes": 9532
+      },
+      {
+        "src": "media/yoshi-moshi-bar-delle-vigne-rando-poster-ac807f871428-640.webp",
+        "width": 640,
+        "bytes": 16560
+      }
+    ],
+    "originalBytes": 16102
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-bar-delle-vigne-rando-loop.mp4": {
+    "src": "media/yoshi-moshi-bar-delle-vigne-rando-loop-3fcd29c03edd.mp4",
+    "bytes": 295841
+  },
+  "/wp-content/uploads/_optimized/2023/10/yoshi-moshi-nidwalden-museum.mp4": {
+    "src": "media/yoshi-moshi-nidwalden-museum-ee3f7a4625c4.mp4",
+    "bytes": 2300797
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-nidwalden-museum-poster.webp": {
+    "src": "media/yoshi-moshi-nidwalden-museum-poster-04102ba86d19-640.webp",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-nidwalden-museum-poster-04102ba86d19-360.webp",
+        "width": 360,
+        "bytes": 5976
+      },
+      {
+        "src": "media/yoshi-moshi-nidwalden-museum-poster-04102ba86d19-640.webp",
+        "width": 640,
+        "bytes": 10624
+      }
+    ],
+    "originalBytes": 10496
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi-moshi-nidwalden-museum-loop.mp4": {
+    "src": "media/yoshi-moshi-nidwalden-museum-loop-330ae2274758.mp4",
+    "bytes": 204502
+  },
+  "/wp-content/uploads/_optimized/2023/10/Cabaret-Voltaire_Performance_yoshi_moshi_mp4.mp4": {
+    "src": "media/Cabaret-Voltaire-Performance-yoshi-moshi-mp4-7e6b3c6f9744.mp4",
+    "bytes": 8105154
+  },
+  "/wp-content/uploads/_optimized/previews/Cabaret-Voltaire_Performance_yoshi_moshi_mp4-poster.webp": {
+    "src": "media/Cabaret-Voltaire-Performance-yoshi-moshi-mp4-poster-7d780023707b-640.webp",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "media/Cabaret-Voltaire-Performance-yoshi-moshi-mp4-poster-7d780023707b-360.webp",
+        "width": 360,
+        "bytes": 6696
+      },
+      {
+        "src": "media/Cabaret-Voltaire-Performance-yoshi-moshi-mp4-poster-7d780023707b-640.webp",
+        "width": 640,
+        "bytes": 13276
+      }
+    ],
+    "originalBytes": 13316
+  },
+  "/wp-content/uploads/_optimized/previews/Cabaret-Voltaire_Performance_yoshi_moshi_mp4-loop.mp4": {
+    "src": "media/Cabaret-Voltaire-Performance-yoshi-moshi-mp4-loop-4ab92b08ac6b.mp4",
+    "bytes": 135534
+  },
+  "/wp-content/uploads/_optimized/2023/10/yoshi_moshi_culture_clash_performance_kunstpause-mp4.mp4": {
+    "src": "media/yoshi-moshi-culture-clash-performance-kunstpause-mp4-00f3d9193569.mp4",
+    "bytes": 9736300
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi_moshi_culture_clash_performance_kunstpause-mp4-poster.webp": {
+    "src": "media/yoshi-moshi-culture-clash-performance-kunstpause-mp4-poster-ab78bdafdd0e-640.webp",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-culture-clash-performance-kunstpause-mp4-poster-ab78bdafdd0e-360.webp",
+        "width": 360,
+        "bytes": 6738
+      },
+      {
+        "src": "media/yoshi-moshi-culture-clash-performance-kunstpause-mp4-poster-ab78bdafdd0e-640.webp",
+        "width": 640,
+        "bytes": 11866
+      }
+    ],
+    "originalBytes": 11568
+  },
+  "/wp-content/uploads/_optimized/previews/yoshi_moshi_culture_clash_performance_kunstpause-mp4-loop.mp4": {
+    "src": "media/yoshi-moshi-culture-clash-performance-kunstpause-mp4-loop-8a1162b0e06f.mp4",
+    "bytes": 224887
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-stills.jpg": {
+    "src": "media/yoshi-moshi-stills-3e4543404430-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-stills-3e4543404430-360.webp",
+        "width": 360,
+        "bytes": 22206
+      },
+      {
+        "src": "media/yoshi-moshi-stills-3e4543404430-720.webp",
+        "width": 720,
+        "bytes": 60046
+      },
+      {
+        "src": "media/yoshi-moshi-stills-3e4543404430-1200.webp",
+        "width": 1200,
+        "bytes": 112218
+      },
+      {
+        "src": "media/yoshi-moshi-stills-3e4543404430-1800.webp",
+        "width": 1800,
+        "bytes": 177502
+      }
+    ],
+    "originalBytes": 1457397
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-stills4.jpg": {
+    "src": "media/yoshi-moshi-stills4-feb341a55d4e-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-stills4-feb341a55d4e-360.webp",
+        "width": 360,
+        "bytes": 22382
+      },
+      {
+        "src": "media/yoshi-moshi-stills4-feb341a55d4e-720.webp",
+        "width": 720,
+        "bytes": 60572
+      },
+      {
+        "src": "media/yoshi-moshi-stills4-feb341a55d4e-1200.webp",
+        "width": 1200,
+        "bytes": 115698
+      },
+      {
+        "src": "media/yoshi-moshi-stills4-feb341a55d4e-1800.webp",
+        "width": 1800,
+        "bytes": 186712
+      }
+    ],
+    "originalBytes": 1528901
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-stills2.jpg": {
+    "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-stills2-d012bc72d4e5-360.webp",
+        "width": 360,
+        "bytes": 15686
+      },
+      {
+        "src": "media/yoshi-moshi-stills2-d012bc72d4e5-720.webp",
+        "width": 720,
+        "bytes": 45780
+      },
+      {
+        "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1200.webp",
+        "width": 1200,
+        "bytes": 92522
+      },
+      {
+        "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1800.webp",
+        "width": 1800,
+        "bytes": 153636
+      }
+    ],
+    "originalBytes": 1385322
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-1.jpg": {
+    "src": "media/yoshi-moshi-1-3f3dc49a8c93-1400.webp",
+    "width": 1400,
+    "height": 934,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-1-3f3dc49a8c93-360.webp",
+        "width": 360,
+        "bytes": 15778
+      },
+      {
+        "src": "media/yoshi-moshi-1-3f3dc49a8c93-720.webp",
+        "width": 720,
+        "bytes": 42696
+      },
+      {
+        "src": "media/yoshi-moshi-1-3f3dc49a8c93-1200.webp",
+        "width": 1200,
+        "bytes": 94822
+      },
+      {
+        "src": "media/yoshi-moshi-1-3f3dc49a8c93-1400.webp",
+        "width": 1400,
+        "bytes": 122130
+      }
+    ],
+    "originalBytes": 1006501
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-30.jpg": {
+    "src": "media/yoshi-moshi-30-de574af22239-1400.webp",
+    "width": 1400,
+    "height": 788,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-30-de574af22239-360.webp",
+        "width": 360,
+        "bytes": 6790
+      },
+      {
+        "src": "media/yoshi-moshi-30-de574af22239-720.webp",
+        "width": 720,
+        "bytes": 17188
+      },
+      {
+        "src": "media/yoshi-moshi-30-de574af22239-1200.webp",
+        "width": 1200,
+        "bytes": 42770
+      },
+      {
+        "src": "media/yoshi-moshi-30-de574af22239-1400.webp",
+        "width": 1400,
+        "bytes": 57052
+      }
+    ],
+    "originalBytes": 580462
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-29.jpg": {
+    "src": "media/yoshi-moshi-29-4eeb3de68173-1400.webp",
+    "width": 1400,
+    "height": 1050,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-29-4eeb3de68173-360.webp",
+        "width": 360,
+        "bytes": 7594
+      },
+      {
+        "src": "media/yoshi-moshi-29-4eeb3de68173-720.webp",
+        "width": 720,
+        "bytes": 21350
+      },
+      {
+        "src": "media/yoshi-moshi-29-4eeb3de68173-1200.webp",
+        "width": 1200,
+        "bytes": 46096
+      },
+      {
+        "src": "media/yoshi-moshi-29-4eeb3de68173-1400.webp",
+        "width": 1400,
+        "bytes": 58310
+      }
+    ],
+    "originalBytes": 664123
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-27.jpg": {
+    "src": "media/yoshi-moshi-27-7e10c82f96e3-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-27-7e10c82f96e3-360.webp",
+        "width": 360,
+        "bytes": 19256
+      },
+      {
+        "src": "media/yoshi-moshi-27-7e10c82f96e3-720.webp",
+        "width": 720,
+        "bytes": 52688
+      },
+      {
+        "src": "media/yoshi-moshi-27-7e10c82f96e3-1200.webp",
+        "width": 1200,
+        "bytes": 105304
+      },
+      {
+        "src": "media/yoshi-moshi-27-7e10c82f96e3-1400.webp",
+        "width": 1400,
+        "bytes": 130254
+      }
+    ],
+    "originalBytes": 967672
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-stills3.jpg": {
+    "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1800.webp",
+    "width": 1800,
+    "height": 1200,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-360.webp",
+        "width": 360,
+        "bytes": 18430
+      },
+      {
+        "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-720.webp",
+        "width": 720,
+        "bytes": 48968
+      },
+      {
+        "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1200.webp",
+        "width": 1200,
+        "bytes": 91434
+      },
+      {
+        "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1800.webp",
+        "width": 1800,
+        "bytes": 147224
+      }
+    ],
+    "originalBytes": 1378921
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-26.jpg": {
+    "src": "media/yoshi-moshi-26-a8843a6b6a12-1050.webp",
+    "width": 1050,
+    "height": 1400,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-26-a8843a6b6a12-360.webp",
+        "width": 360,
+        "bytes": 63230
+      },
+      {
+        "src": "media/yoshi-moshi-26-a8843a6b6a12-720.webp",
+        "width": 720,
+        "bytes": 213062
+      },
+      {
+        "src": "media/yoshi-moshi-26-a8843a6b6a12-1050.webp",
+        "width": 1050,
+        "bytes": 396758
+      }
+    ],
+    "originalBytes": 1692664
+  },
+  "/wp-content/uploads/2023/07/yoshi-moshi-4.jpg": {
+    "src": "media/yoshi-moshi-4-a8b609466472-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-4-a8b609466472-360.webp",
+        "width": 360,
+        "bytes": 18144
+      },
+      {
+        "src": "media/yoshi-moshi-4-a8b609466472-720.webp",
+        "width": 720,
+        "bytes": 51202
+      },
+      {
+        "src": "media/yoshi-moshi-4-a8b609466472-1200.webp",
+        "width": 1200,
+        "bytes": 101250
+      },
+      {
+        "src": "media/yoshi-moshi-4-a8b609466472-1400.webp",
+        "width": 1400,
+        "bytes": 127052
+      }
+    ],
+    "originalBytes": 1004855
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-24.jpg": {
+    "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-24-2ca1cc5c39a1-360.webp",
+        "width": 360,
+        "bytes": 34430
+      },
+      {
+        "src": "media/yoshi-moshi-24-2ca1cc5c39a1-720.webp",
+        "width": 720,
+        "bytes": 133856
+      },
+      {
+        "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1200.webp",
+        "width": 1200,
+        "bytes": 341632
+      },
+      {
+        "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1400.webp",
+        "width": 1400,
+        "bytes": 450688
+      }
+    ],
+    "originalBytes": 1959912
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-23.jpg": {
+    "src": "media/yoshi-moshi-23-349c046a74bf-933.webp",
+    "width": 933,
+    "height": 1400,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-23-349c046a74bf-360.webp",
+        "width": 360,
+        "bytes": 11914
+      },
+      {
+        "src": "media/yoshi-moshi-23-349c046a74bf-720.webp",
+        "width": 720,
+        "bytes": 38216
+      },
+      {
+        "src": "media/yoshi-moshi-23-349c046a74bf-933.webp",
+        "width": 933,
+        "bytes": 61288
+      }
+    ],
+    "originalBytes": 655901
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-22.jpg": {
+    "src": "media/yoshi-moshi-22-07571ac52f6a-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-22-07571ac52f6a-360.webp",
+        "width": 360,
+        "bytes": 5042
+      },
+      {
+        "src": "media/yoshi-moshi-22-07571ac52f6a-720.webp",
+        "width": 720,
+        "bytes": 14328
+      },
+      {
+        "src": "media/yoshi-moshi-22-07571ac52f6a-1200.webp",
+        "width": 1200,
+        "bytes": 37700
+      },
+      {
+        "src": "media/yoshi-moshi-22-07571ac52f6a-1400.webp",
+        "width": 1400,
+        "bytes": 52026
+      }
+    ],
+    "originalBytes": 771940
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-21.jpg": {
+    "src": "media/yoshi-moshi-21-7cd5fb327385-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-21-7cd5fb327385-360.webp",
+        "width": 360,
+        "bytes": 8802
+      },
+      {
+        "src": "media/yoshi-moshi-21-7cd5fb327385-720.webp",
+        "width": 720,
+        "bytes": 24636
+      },
+      {
+        "src": "media/yoshi-moshi-21-7cd5fb327385-1200.webp",
+        "width": 1200,
+        "bytes": 51368
+      },
+      {
+        "src": "media/yoshi-moshi-21-7cd5fb327385-1400.webp",
+        "width": 1400,
+        "bytes": 65202
+      }
+    ],
+    "originalBytes": 769125
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-20.jpg": {
+    "src": "media/yoshi-moshi-20-969f9e16a86c-1400.webp",
+    "width": 1400,
+    "height": 1050,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-20-969f9e16a86c-360.webp",
+        "width": 360,
+        "bytes": 28520
+      },
+      {
+        "src": "media/yoshi-moshi-20-969f9e16a86c-720.webp",
+        "width": 720,
+        "bytes": 89916
+      },
+      {
+        "src": "media/yoshi-moshi-20-969f9e16a86c-1200.webp",
+        "width": 1200,
+        "bytes": 195154
+      },
+      {
+        "src": "media/yoshi-moshi-20-969f9e16a86c-1400.webp",
+        "width": 1400,
+        "bytes": 249992
+      }
+    ],
+    "originalBytes": 1368956
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-19.jpg": {
+    "src": "media/yoshi-moshi-19-c2ba1a918778-1400.webp",
+    "width": 1400,
+    "height": 788,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-19-c2ba1a918778-360.webp",
+        "width": 360,
+        "bytes": 9184
+      },
+      {
+        "src": "media/yoshi-moshi-19-c2ba1a918778-720.webp",
+        "width": 720,
+        "bytes": 22410
+      },
+      {
+        "src": "media/yoshi-moshi-19-c2ba1a918778-1200.webp",
+        "width": 1200,
+        "bytes": 41532
+      },
+      {
+        "src": "media/yoshi-moshi-19-c2ba1a918778-1400.webp",
+        "width": 1400,
+        "bytes": 49508
+      }
+    ],
+    "originalBytes": 435732
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-18.jpg": {
+    "src": "media/yoshi-moshi-18-95a8be256b13-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-18-95a8be256b13-360.webp",
+        "width": 360,
+        "bytes": 32054
+      },
+      {
+        "src": "media/yoshi-moshi-18-95a8be256b13-720.webp",
+        "width": 720,
+        "bytes": 121868
+      },
+      {
+        "src": "media/yoshi-moshi-18-95a8be256b13-1200.webp",
+        "width": 1200,
+        "bytes": 256562
+      },
+      {
+        "src": "media/yoshi-moshi-18-95a8be256b13-1400.webp",
+        "width": 1400,
+        "bytes": 305868
+      }
+    ],
+    "originalBytes": 1210322
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-17.jpg": {
+    "src": "media/yoshi-moshi-17-9daf8c6357d3-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-17-9daf8c6357d3-360.webp",
+        "width": 360,
+        "bytes": 22218
+      },
+      {
+        "src": "media/yoshi-moshi-17-9daf8c6357d3-720.webp",
+        "width": 720,
+        "bytes": 74238
+      },
+      {
+        "src": "media/yoshi-moshi-17-9daf8c6357d3-1200.webp",
+        "width": 1200,
+        "bytes": 160452
+      },
+      {
+        "src": "media/yoshi-moshi-17-9daf8c6357d3-1400.webp",
+        "width": 1400,
+        "bytes": 203524
+      }
+    ],
+    "originalBytes": 981489
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-16.jpg": {
+    "src": "media/yoshi-moshi-16-0a354bc4af58-1400.webp",
+    "width": 1400,
+    "height": 932,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-16-0a354bc4af58-360.webp",
+        "width": 360,
+        "bytes": 15596
+      },
+      {
+        "src": "media/yoshi-moshi-16-0a354bc4af58-720.webp",
+        "width": 720,
+        "bytes": 48400
+      },
+      {
+        "src": "media/yoshi-moshi-16-0a354bc4af58-1200.webp",
+        "width": 1200,
+        "bytes": 104624
+      },
+      {
+        "src": "media/yoshi-moshi-16-0a354bc4af58-1400.webp",
+        "width": 1400,
+        "bytes": 130384
+      }
+    ],
+    "originalBytes": 1029278
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-15.jpg": {
+    "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1400.webp",
+    "width": 1400,
+    "height": 930,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-15-03e7e0b1cbaa-360.webp",
+        "width": 360,
+        "bytes": 7540
+      },
+      {
+        "src": "media/yoshi-moshi-15-03e7e0b1cbaa-720.webp",
+        "width": 720,
+        "bytes": 22616
+      },
+      {
+        "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1200.webp",
+        "width": 1200,
+        "bytes": 50894
+      },
+      {
+        "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1400.webp",
+        "width": 1400,
+        "bytes": 64508
+      }
+    ],
+    "originalBytes": 858068
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-14.jpg": {
+    "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-14-7cf6c2cf69ea-360.webp",
+        "width": 360,
+        "bytes": 28948
+      },
+      {
+        "src": "media/yoshi-moshi-14-7cf6c2cf69ea-720.webp",
+        "width": 720,
+        "bytes": 119972
+      },
+      {
+        "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1200.webp",
+        "width": 1200,
+        "bytes": 299420
+      },
+      {
+        "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1400.webp",
+        "width": 1400,
+        "bytes": 392210
+      }
+    ],
+    "originalBytes": 1694780
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-13.jpg": {
+    "src": "media/yoshi-moshi-13-05274e6f8e15-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-13-05274e6f8e15-360.webp",
+        "width": 360,
+        "bytes": 19104
+      },
+      {
+        "src": "media/yoshi-moshi-13-05274e6f8e15-720.webp",
+        "width": 720,
+        "bytes": 82100
+      },
+      {
+        "src": "media/yoshi-moshi-13-05274e6f8e15-1200.webp",
+        "width": 1200,
+        "bytes": 200480
+      },
+      {
+        "src": "media/yoshi-moshi-13-05274e6f8e15-1400.webp",
+        "width": 1400,
+        "bytes": 260368
+      }
+    ],
+    "originalBytes": 1368620
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-12.jpg": {
+    "src": "media/yoshi-moshi-12-660a6a0fa83b-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-12-660a6a0fa83b-360.webp",
+        "width": 360,
+        "bytes": 13052
+      },
+      {
+        "src": "media/yoshi-moshi-12-660a6a0fa83b-720.webp",
+        "width": 720,
+        "bytes": 38210
+      },
+      {
+        "src": "media/yoshi-moshi-12-660a6a0fa83b-1200.webp",
+        "width": 1200,
+        "bytes": 75464
+      },
+      {
+        "src": "media/yoshi-moshi-12-660a6a0fa83b-1400.webp",
+        "width": 1400,
+        "bytes": 92528
+      }
+    ],
+    "originalBytes": 863504
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-11.jpg": {
+    "src": "media/yoshi-moshi-11-85009b11c42b-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-11-85009b11c42b-360.webp",
+        "width": 360,
+        "bytes": 10270
+      },
+      {
+        "src": "media/yoshi-moshi-11-85009b11c42b-720.webp",
+        "width": 720,
+        "bytes": 37436
+      },
+      {
+        "src": "media/yoshi-moshi-11-85009b11c42b-1200.webp",
+        "width": 1200,
+        "bytes": 91966
+      },
+      {
+        "src": "media/yoshi-moshi-11-85009b11c42b-1400.webp",
+        "width": 1400,
+        "bytes": 120644
+      }
+    ],
+    "originalBytes": 1047793
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-10.jpg": {
+    "src": "media/yoshi-moshi-10-ff55351e66e1-1400.webp",
+    "width": 1400,
+    "height": 931,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-10-ff55351e66e1-360.webp",
+        "width": 360,
+        "bytes": 36510
+      },
+      {
+        "src": "media/yoshi-moshi-10-ff55351e66e1-720.webp",
+        "width": 720,
+        "bytes": 142230
+      },
+      {
+        "src": "media/yoshi-moshi-10-ff55351e66e1-1200.webp",
+        "width": 1200,
+        "bytes": 356376
+      },
+      {
+        "src": "media/yoshi-moshi-10-ff55351e66e1-1400.webp",
+        "width": 1400,
+        "bytes": 461376
+      }
+    ],
+    "originalBytes": 2109332
+  },
+  "/wp-content/uploads/2022/07/yoshi-moshi-7.jpg": {
+    "src": "media/yoshi-moshi-7-629cde9f3731-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "variants": [
+      {
+        "src": "media/yoshi-moshi-7-629cde9f3731-360.webp",
+        "width": 360,
+        "bytes": 20192
+      },
+      {
+        "src": "media/yoshi-moshi-7-629cde9f3731-720.webp",
+        "width": 720,
+        "bytes": 69302
+      },
+      {
+        "src": "media/yoshi-moshi-7-629cde9f3731-1200.webp",
+        "width": 1200,
+        "bytes": 150468
+      },
+      {
+        "src": "media/yoshi-moshi-7-629cde9f3731-1400.webp",
+        "width": 1400,
+        "bytes": 190746
+      }
+    ],
+    "originalBytes": 1169540
+  },
+  "/wp-content/uploads/2022/07/Yoshi_Moshi_inverse.gif": {
+    "src": "media/Yoshi-Moshi-inverse-1229b85e97e9-poster.webp",
+    "width": 720,
+    "height": 464,
+    "originalBytes": 242308,
+    "video": {
+      "src": "media/Yoshi-Moshi-inverse-1229b85e97e9.mp4",
+      "bytes": 21763
+    },
+    "poster": {
+      "src": "media/Yoshi-Moshi-inverse-1229b85e97e9-poster.webp",
+      "width": 720,
+      "height": 464
+    }
+  }
+}

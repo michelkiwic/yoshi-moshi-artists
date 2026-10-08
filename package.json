@@ -1,0 +1,16 @@
+{
+  "name": "yoshi-moshi-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent static Yoshi + Moshi artist website",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "node tools/serve.mjs",
+    "preview": "node tools/serve.mjs dist",
+    "check": "node tools/check.mjs",
+    "import": "node tools/import.mjs"
+  },
+  "devDependencies": { "cheerio": "1.1.2", "sharp": "0.34.4" },
+  "engines": { "node": ">=22" }
+}
