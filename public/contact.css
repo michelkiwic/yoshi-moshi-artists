@@ -1,0 +1,63 @@
+/* A contact invitation in the same monochrome, Oswald-led visual language. */
+.page-contact main{min-height:calc(100dvh - var(--header))}
+.contact-stage{--contact-column-gap:clamp(32px,5vw,80px);width:min(1120px,82%);margin:0 auto;padding:clamp(72px,7vw,116px) 0 64px;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);column-gap:var(--contact-column-gap);row-gap:32px;align-items:start}
+.contact-intro .kicker{margin:0 0 26px}
+.contact-intro h1{font-size:clamp(100px,10.8vw,170px);line-height:.95;letter-spacing:-.02em;transform:none;margin:0 0 32px}
+.contact-intro h1 span{display:block}
+.contact-lede{font-size:clamp(19px,1.6vw,24px);line-height:1.4;margin:0;max-width:440px}
+.contact-duo{position:relative;grid-column:2;grid-row:1 / 3;align-self:end;aspect-ratio: .81;margin:0;overflow:visible;isolation:isolate}
+.contact-duo img{position:absolute;max-width:none;width:83%;height:auto;bottom:43px;filter:grayscale(1);transform:rotate(180deg)}
+/* Crop the source bottom (the visible top after rotation) to Moshi's height/width ratio. */
+.contact-yoshi{left:-17%;z-index:3;clip-path:inset(0 0 6.3% 0)}
+.contact-moshi{right:-17%;z-index:2}
+.contact-invitation{grid-column:1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px 12px;background:var(--white);color:var(--black);padding:28px 30px;text-decoration:none;transition:background-color .2s}
+.contact-invitation-label{font-size:11px;letter-spacing:.18em;font-weight:700;line-height:1.5}
+.contact-email{grid-column:1;grid-row:2;font-size:clamp(28px,2.8vw,42px);letter-spacing:-.015em;line-height:1.2}
+.contact-email span{display:block}
+.contact-arrow{grid-column:2;grid-row:1 / 3;align-self:center;display:grid;place-items:center;width:54px;aspect-ratio:1;background:var(--black);color:var(--white);border-radius:50%;transition:transform .2s}
+.contact-arrow svg{width:30px;height:30px}
+.contact-invitation-note{grid-column:1 / -1;font-size:16px;line-height:1.4;padding-top:14px;border-top:1px solid #07070730}
+.contact-invitation:hover{background:#deddd8}
+.contact-invitation:hover .contact-arrow,.contact-invitation:focus-visible .contact-arrow{transform:translate(3px,-3px)}
+.contact-invitation:focus-visible{outline:2px solid var(--white);outline-offset:6px}
+.contact-details{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;border-top:1px solid var(--line);padding-top:26px;margin-top:16px}
+.contact-details p{margin:0;font-size:clamp(19px,1.6vw,24px);line-height:1.5}
+.contact-details p:first-child{text-transform:uppercase;letter-spacing:.09em;font-weight:700}
+@media (min-width:768px){
+  .contact-stage{position:relative}
+  .contact-duo{position:absolute;grid-area:auto;top:0;right:-123px;width:calc((100% - var(--contact-column-gap)) * .7)}
+  .contact-duo img{top:0;bottom:auto}
+  .contact-duo .contact-yoshi{transform:translateY(-6.3%) rotate(180deg)}
+}
+@media (min-width:768px) and (max-width:1380px){
+  .contact-duo{right:-48px;z-index:2}
+}
+@media (min-width:768px) and (max-width:1000px){
+  .contact-stage{--contact-column-gap:24px;width:84%}
+  .contact-intro h1{font-size:12vw}
+  .contact-invitation{padding:24px 20px}
+  .contact-email{font-size:29px}
+  .contact-arrow{width:42px}
+  .contact-duo{aspect-ratio:.7}
+}
+@media (max-width:767px){
+  .contact-stage{width:85%;padding:72px 0 40px;grid-template-columns:minmax(0,1fr);row-gap:28px}
+  .contact-intro h1{font-size:clamp(80px,22vw,150px);margin-bottom:26px}
+  .contact-intro .kicker{font-size:10px;letter-spacing:.14em;margin-bottom:20px}
+  .contact-lede{font-size:19px;line-height:1.4}
+  .contact-lede br{display:none}
+  .contact-invitation{grid-row:2;padding:24px}
+  .contact-email{font-size:clamp(25px,7.5vw,42px)}
+  .contact-arrow{width:44px}
+  .contact-duo{grid-column:1;grid-row:3;aspect-ratio:.92;width:min(100%,470px);justify-self:center;margin-top:12px}
+  .contact-duo img{width:72%;bottom:40px}
+  .contact-yoshi{left:-8%}.contact-moshi{right:-8%}
+  .contact-details{grid-template-columns:1fr 1fr;gap:20px;margin-top:0}
+  .contact-details p:first-child{grid-column:1 / -1}
+  .contact-details p{font-size:19px}
+}
+@media (max-width:359px){
+  .contact-invitation{padding:20px 16px;column-gap:8px}
+  .contact-arrow{width:36px}.contact-arrow svg{width:24px;height:24px}
+  .contact-details{grid-template-columns:1fr}
+}

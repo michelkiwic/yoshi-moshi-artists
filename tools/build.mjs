@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import crypto from 'node:crypto';
 const root=path.resolve(import.meta.dirname,'..');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/site.json'),'utf8'));
 const dist=path.join(root,'dist');
@@ -23,6 +24,7 @@ function links(html='') {
   return html.replace(/href="(media\/[^"#]+|news\/[^" ]*|performances\/[^" ]*|films\/[^" ]*|pictures\/[^" ]*|about\/[^" ]*|contact\/[^" ]*|\.\/[^" ]*)"/g,(_,s)=>`href="${url(s)}"`);
 }
 function media(m) {
+  if (m.type==='loop') return `<video class="news-loop" muted loop playsinline preload="none" data-loop="${url(m.src)}" aria-label="${escape(m.alt||'Yoshi + Moshi video')}" ></video>`;
   if (m.type==='video') return `<video controls playsinline preload="none" data-src="${url(m.src)}" aria-label="Yoshi + Moshi film"></video>`;
   if (m.video) return `<video class="preview-loop" muted loop playsinline preload="none" poster="${url(m.poster.src)}" data-loop="${url(m.video.src)}" aria-label="${escape(m.alt)}"></video>`;
   return image(m,m.alt||'Yoshi + Moshi');
@@ -34,20 +36,21 @@ function nav(active,overlay=false){return `<nav aria-label="${overlay?'Mobile':'
 function decoration(page){return `<div class="ambient" aria-hidden="true"><span class="dot dot-one"></span><span class="dot dot-two"></span><span class="dot dot-three"></span>${['home','about'].includes(page)?image(data.art.yoshi,'','character yoshi',true,'(max-width: 767px) 70vw, 50vw')+image(data.art.moshi,'','character moshi',true,'(max-width: 767px) 70vw, 50vw'):''}</div>`;}
 function content(page){
   if(page==='home')return `<section class="home-stage"><h1>${image(data.art.logo,'Yoshi + Moshi','wordmark',true,'(max-width: 767px) 145px, 340px')}</h1><p class="sr-only">Artists based in Mendrisio TI, Switzerland. Discover our news, performances, films and pictures.</p></section>`;
-  if(page==='about')return `<div class="about-content"><header class="page-intro"><h1>Yoshi +<br>Moshi<br>artists</h1><p class="lede">${escape(data.about.lede)}</p></header>${panel(data.about.panel)}${data.about.sections.map(s=>`<section class="timeline-section"><h2>${escape(s.title)}</h2>${links(s.html)}</section>`).join('')}</div>`;
-  if(page==='contact')return `<h1 class="sr-only">Contact Yoshi + Moshi</h1><section class="contact-layout"><div class="contact-copy">${links(data.contact.html)}<a class="email-button" href="${escape(data.contact.email)}">e-mail</a></div><div class="contact-art">${data.contact.media.map(media).join('')}</div></section>`;
+  if(page==='about')return `<div class="about-content"><div class="about-intro"><header class="page-intro"><h1>Yoshi +<br>Moshi<br>artists</h1><p class="lede">${escape(data.about.lede)}</p></header>${panel(data.about.panel)}</div>${data.about.sections.map(s=>`<section class="timeline-section"><h2>${escape(s.title)}</h2>${links(s.html)}</section>`).join('')}</div>`;
+  if(page==='contact')return `<section class="contact-stage"><header class="contact-intro"><p class="kicker">YOSHI + MOSHI / CONTACT</p><h1><span>SAY</span><span>HELLO.</span></h1><p class="contact-lede">Exhibitions, performances, films —<br> or something we haven’t thought of yet.</p></header><figure class="contact-duo">${image(data.art.yoshi,'Yoshi','contact-yoshi',true,'(max-width: 767px) 65vw, 440px')}${image(data.art.moshi,'Moshi','contact-moshi',true,'(max-width: 767px) 65vw, 440px')}</figure><a class="contact-invitation" href="${escape(data.contact.email)}"><span class="contact-invitation-label">SEND A SIGNAL</span><span class="contact-email"><span>yoshi-moshi@</span><span>yoshi-moshi.com</span></span><span class="contact-arrow" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M8 24 24 8M8 8h16v16" stroke="currentColor" stroke-width="2"/></svg></span><span class="contact-invitation-note">A hello is a good place to start.</span></a><section class="contact-details" aria-label="Contact details">${links(data.contact.html)}</section></section>`;
   const d=data[page];
   let feed='';
-  if(page==='news')feed=`<div class="news-feed">${d.entries.map((e,i)=>`<article class="news-entry" aria-label="News item ${i+1}"><div class="news-media">${e.media.map(media).join('')}</div><div class="news-copy">${links(e.html)}</div></article>`).join('')}</div>`;
+  if(page==='news')feed=`<div class="news-feed">${d.entries.map((e,i)=>`<article class="news-entry" aria-label="News item ${i+1}"><div class="news-entry-inner"><div class="news-media">${e.media.map(media).join('')}</div><div class="news-copy">${links(e.html)}</div></div></article>`).join('')}</div>`;
   if(page==='performances')feed=`<div class="performance-grid">${d.entries.map(e=>`<article class="performance-card"><h2>${escape(e.title)}</h2><div class="performance-media ${e.media.length>1?'multiple':''}">${e.media.map(media).join('')}</div></article>`).join('')}</div>`;
   if(page==='pictures')feed=`<div class="pictures-grid">${d.entries.map((e,i)=>`<a class="picture-card" href="${url(e.src)}" data-gallery="${i}" aria-label="View photograph ${i+1}">${image(e,e.alt)}</a>`).join('')}</div>`;
-  if(page==='films')feed=`<div class="film-grid" aria-label="Film archive">${d.entries.map(e=>`<button type="button" class="film-card" data-film="${url(e.film.src)}" aria-label="Play: ${escape(e.title)}"><span class="film-title">${escape(e.title)}</span><span class="film-frame"><video class="preview-loop" muted loop playsinline preload="none" poster="${url(e.poster.src)}" data-loop="${url(e.loop.src)}" aria-hidden="true"></video><span class="play-mark" aria-hidden="true"><i></i><i></i><i></i></span></span></button>`).join('')}</div>`;
+  if(page==='films')feed=`<div class="film-grid" aria-label="Film archive">${d.entries.map(e=>`<button type="button" class="film-card" data-film="${url(e.film.src)}" aria-label="Play: ${escape(e.title)}"><span class="film-frame"><video class="preview-loop" muted loop playsinline preload="none" poster="${url(e.poster.src)}" data-loop="${url(e.loop.src)}" aria-hidden="true"></video><span class="play-mark" aria-hidden="true"></span></span><span class="film-title">${escape(e.title)}</span></button>`).join('')}</div>`;
   return `<div class="archive">${intro(d)}${panel(d.panel)}${feed}</div>`;
 }
 const font=data.fonts.find(f=>/woff2$/.test(f.src))||data.fonts[0];
 if(!font)throw new Error('No local Oswald font imported');
-await fs.writeFile(path.join(dist,'font.css'),`@font-face{font-family:Oswald;src:url("${font.src}") format("${font.src.endsWith('woff2')?'woff2':font.src.endsWith('woff')?'woff':'truetype'}");font-style:normal;font-weight:200 700;font-display:swap}`);
+await fs.writeFile(path.join(dist,'font.css'),`@font-face{font-family:Oswald;src:url("${font.src}") format("${font.src.endsWith('woff2')?'woff2':font.src.endsWith('woff')?'woff':'truetype'}");font-style:normal;font-weight:${font.weight||400};font-display:swap}`);
 await fs.writeFile(path.join(dist,'art.css'),`:root{--drip-left:url("${data.art.dripLeft.src}");--drip-right:url("${data.art.dripRight.src}")}`);
+const revisions=Object.fromEntries(await Promise.all(['font.css','art.css','site.css','fidelity.css','contact.css','site.js'].map(async file=>[file,crypto.createHash('sha256').update(await fs.readFile(path.join(dist,file))).digest('hex').slice(0,10)])));
 for(const route of routes){
   prefix=route?'../':'';
   const page=route||'home';
@@ -58,7 +61,8 @@ for(const route of routes){
 <body class="page-${page}"><a class="skip-link" href="#main">Skip to content</a><header class="site-header">${heads()}${nav(route)}<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="menu-dialog" aria-expanded="false"><span></span><span></span><span></span></button></header><div class="header-spacer"></div>${decoration(page)}<main id="main">${content(page)}</main><dialog class="menu-dialog" id="menu-dialog" aria-label="Navigation"><div class="menu-header">${heads()}<button class="close-menu" aria-label="Close navigation" type="button">×</button></div>${nav(route,true)}</dialog><dialog class="media-dialog" aria-label="Media viewer"><div class="dialog-bar"><h2></h2><button class="close-media" type="button" aria-label="Close media">×</button></div><div class="dialog-content"></div><div class="gallery-controls"><button type="button" data-direction="-1" aria-label="Previous photograph">←</button><span aria-live="polite"></span><button type="button" data-direction="1" aria-label="Next photograph">→</button></div></dialog></body></html>`;
   const dir=path.join(dist,route);
   await fs.mkdir(dir,{recursive:true});
-  await fs.writeFile(path.join(dir,'index.html'),html);
+  const faithfulHtml=html.replace('</head>',`<link rel="stylesheet" href="${url('fidelity.css')}">${page==='contact'?`<link rel="stylesheet" href="${url('contact.css')}">`:''}</head>`).replace(/((?:src|href)=")([^"]+\.(?:css|js))"/g,(_,start,ref)=>`${start}${ref}?v=${revisions[path.basename(ref)]}"`);
+  await fs.writeFile(path.join(dir,'index.html'),faithfulHtml);
 }
 // Existing bookmarked WordPress paths continue to work without a server.
 for(const [old,next] of [['film-performances-yoshi-moshi','films'],['yoshi-moshi-3','contact'],['log','news']]){

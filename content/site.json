@@ -150,9 +150,10 @@
         "html": "<p><strong>OCCUPY SUPERBA<br>\n</strong>performance, installation + film<strong><br>\n</strong>6th Biennale Le Latitudini dell’Arte<br>\nItalia &amp;&nbsp; Svizzera edition</p>\n<p>opening 01 August 2024, 6pm<br>\n02 August – 08 September 2024</p>\n<p>GALATA Museo del Mare, Genoa, Italy</p>",
         "media": [
           {
-            "type": "video",
-            "src": "media/yoshi-moshi-tele-nord-genoa-a9dc8d393ad9.mp4",
-            "bytes": 1954121
+            "type": "loop",
+            "src": "media/news-occupy-superba-loop.mp4",
+            "bytes": 742315,
+            "alt": "Occupy Superba at the Galata museum"
           }
         ]
       },
@@ -330,9 +331,10 @@
         "html": "<p>Nina Staehli: The new&nbsp; monograph / artist book is out now!<br>\nFilms 2014 – 2024<br>\n292 pages<br>\n<strong>Of course with lots of movies and filmstills from us!<br>\norder now&nbsp;<a href=\"mailto:nina@ninastaehli.com\" target=\"_blank\" rel=\"noopener\">nina@ninastaehli.com</a>&nbsp;/ chf 69.00</strong></p>\n<p>\n</p>",
         "media": [
           {
-            "type": "video",
-            "src": "media/the-resistance-buch-f5d96255111b.mp4",
-            "bytes": 709058
+            "type": "loop",
+            "src": "media/news-monograph-loop.mp4",
+            "bytes": 462935,
+            "alt": "Yoshi + Moshi film montage for the monograph"
           }
         ]
       }
@@ -464,7 +466,7 @@
   "films": {
     "kicker": "YOSHI + MOSHI / MOVING IMAGE",
     "title": "FILMS",
-    "lede": "Short films, live moments and moving images.",
+    "lede": "Short films, live moments and moving<br>images.",
     "panel": "<p>Yoshi + Moshi keep moving. Sometimes on stage, sometimes on screen, and sometimes without much of a plan. Not every moment makes it into a film, but a few do. Anyway, press play and see what happens.</p>",
     "entries": [
       {
@@ -617,7 +619,7 @@
   "pictures": {
     "kicker": "YOSHI + MOSHI / STILL HERE",
     "title": "PICTURES",
-    "lede": "A few moments standing still. Yoshi + Moshi rarely do.",
+    "lede": "A few moments standing still. Yoshi + Moshi<br>rarely do.",
     "panel": "<p>Yoshi + Moshi are not always easy to pin down. Sometimes a camera helps. On stage, on the road, or somewhere in between — a few moments stayed still long enough to end up here. Anyway, take a look.</p>",
     "entries": [
       {
@@ -1482,135 +1484,36 @@
   },
   "art": {
     "yoshi": {
-      "src": "media/yoshi-transparent-v2-3281934d063c-1121.webp",
+      "src": "media/reference-yoshi.webp",
       "width": 1121,
-      "height": 1403,
-      "variants": [
-        {
-          "src": "media/yoshi-transparent-v2-3281934d063c-360.webp",
-          "width": 360,
-          "bytes": 34210
-        },
-        {
-          "src": "media/yoshi-transparent-v2-3281934d063c-720.webp",
-          "width": 720,
-          "bytes": 89446
-        },
-        {
-          "src": "media/yoshi-transparent-v2-3281934d063c-1121.webp",
-          "width": 1121,
-          "bytes": 165592
-        }
-      ],
-      "originalBytes": 1342260
+      "height": 1403
     },
     "moshi": {
-      "src": "media/moshi-transparent-v2-36167fddcefd-1158.webp",
+      "src": "media/reference-moshi.webp",
       "width": 1158,
-      "height": 1358,
-      "variants": [
-        {
-          "src": "media/moshi-transparent-v2-36167fddcefd-360.webp",
-          "width": 360,
-          "bytes": 42076
-        },
-        {
-          "src": "media/moshi-transparent-v2-36167fddcefd-720.webp",
-          "width": 720,
-          "bytes": 121234
-        },
-        {
-          "src": "media/moshi-transparent-v2-36167fddcefd-1158.webp",
-          "width": 1158,
-          "bytes": 246336
-        }
-      ],
-      "originalBytes": 1800448
+      "height": 1358
     },
     "logo": {
-      "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-955.webp",
+      "src": "media/reference-logo.webp",
       "width": 955,
-      "height": 1647,
-      "variants": [
-        {
-          "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-360.webp",
-          "width": 360,
-          "bytes": 41530
-        },
-        {
-          "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-720.webp",
-          "width": 720,
-          "bytes": 117932
-        },
-        {
-          "src": "media/logo-yoshi-moshi-sharp-v2-d8a4f8f19dc0-955.webp",
-          "width": 955,
-          "bytes": 166866
-        }
-      ],
-      "originalBytes": 573505
+      "height": 1647
     },
     "dripLeft": {
-      "src": "media/header-drip-left-white-v6-c56398803fee-1536.webp",
+      "src": "media/reference-dripLeft.webp",
       "width": 1536,
-      "height": 1024,
-      "variants": [
-        {
-          "src": "media/header-drip-left-white-v6-c56398803fee-360.webp",
-          "width": 360,
-          "bytes": 11048
-        },
-        {
-          "src": "media/header-drip-left-white-v6-c56398803fee-720.webp",
-          "width": 720,
-          "bytes": 26082
-        },
-        {
-          "src": "media/header-drip-left-white-v6-c56398803fee-1200.webp",
-          "width": 1200,
-          "bytes": 55350
-        },
-        {
-          "src": "media/header-drip-left-white-v6-c56398803fee-1536.webp",
-          "width": 1536,
-          "bytes": 73266
-        }
-      ],
-      "originalBytes": 446487
+      "height": 1024
     },
     "dripRight": {
-      "src": "media/header-drip-right-white-v6-b158db2fd1a8-1536.webp",
+      "src": "media/reference-dripRight.webp",
       "width": 1536,
-      "height": 1024,
-      "variants": [
-        {
-          "src": "media/header-drip-right-white-v6-b158db2fd1a8-360.webp",
-          "width": 360,
-          "bytes": 10168
-        },
-        {
-          "src": "media/header-drip-right-white-v6-b158db2fd1a8-720.webp",
-          "width": 720,
-          "bytes": 24600
-        },
-        {
-          "src": "media/header-drip-right-white-v6-b158db2fd1a8-1200.webp",
-          "width": 1200,
-          "bytes": 53006
-        },
-        {
-          "src": "media/header-drip-right-white-v6-b158db2fd1a8-1536.webp",
-          "width": 1536,
-          "bytes": 67046
-        }
-      ],
-      "originalBytes": 392650
+      "height": 1024
     }
   },
   "fonts": [
     {
-      "src": "fonts/oswald-variable.woff2",
-      "name": "Oswald variable 200–700"
+      "src": "fonts/oswald-reference-regular.woff2",
+      "name": "Oswald Regular — matching the WordPress Google Fonts request",
+      "weight": 400
     }
   ]
 }

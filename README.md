@@ -37,10 +37,13 @@ npm run build
 - `public/media/`: Lokale Medien. Vorhandene Bilder liegen in mehreren WebP-Größen vor; GIF-Animationen werden durch kompakte MP4-Schleifen ersetzt.
 - `public/fonts/`: Selbst gehostete Oswald-Schrift samt Lizenz.
 - `public/site.css`: Gestaltung und responsive Layouts.
+- `public/fidelity.css`: Originalgetreue Schrift-, Bewegungs- und Layoutregeln aus der WordPress-Referenz.
 - `public/site.js`: Menü, Galerie, Film-Dialoge und bedarfsgesteuerte Videos.
 - `tools/build.mjs`: Erzeugt die vollständigen HTML-Seiten in `dist/`.
 
 Die einmalige Migration ist in `tools/import.mjs` dokumentiert. Sie wird **nicht** beim Bauen oder Veröffentlichen ausgeführt. Für die fertige Website wird die alte WordPress-Installation nicht benötigt.
+
+Der anschließende visuelle Abgleich und die Referenzmaße sind in `FIDELITY.md` dokumentiert. Die Schrift ist absichtlich Oswald Regular mit browserseitiger Fettschrift, entsprechend dem Original. Diese Deklaration sollte nicht ohne erneuten Vergleich gegen eine variable Schrift ausgetauscht werden.
 
 ## Optimierungen
 
