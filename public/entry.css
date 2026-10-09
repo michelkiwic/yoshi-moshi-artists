@@ -5,7 +5,7 @@
 html[data-entry-pending] .page-home>.site-header,html[data-entry-pending] .page-home>.ambient,html[data-entry-pending] .page-home>main{visibility:hidden}
 html[data-entry-pending] .entry-gate{display:grid;place-items:center}
 body:has(.entry-gate[open]){overflow:hidden}
-.entry-brand{position:absolute;top:calc(clamp(28px,5vh,56px) + 100px);left:0;width:100%;margin:0;text-align:center;font-size:12px;line-height:1.4;font-weight:700;letter-spacing:.2em}
+.entry-brand{position:absolute;top:calc(clamp(28px,5vh,56px) + 50px);left:0;width:100%;margin:0;text-align:center;font-size:12px;line-height:1.4;font-weight:700;letter-spacing:.2em}
 .entry-logo{width:64px;height:auto;margin:0 auto}
 .entry-message{position:relative;z-index:1;text-align:center;padding:24px;max-width:100%}
 .entry-message h2{font-size:clamp(58px,11vw,166px);line-height:.95;letter-spacing:-.025em;margin:0 0 48px;transform:none;font-weight:800}
