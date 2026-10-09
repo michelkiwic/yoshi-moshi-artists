@@ -1,6 +1,6 @@
 /* Design values taken from the rendered WordPress reference, not a redesign.
    Oswald Regular deliberately uses browser-synthesized 700/800, like Enfold. */
-:root{--header-drip-width:clamp(170px,calc(38.5vw + 34px),1020px)}
+:root{--header:80px;--header-drip-width:clamp(170px,calc(38.5vw + 34px),1020px)}
 html{scrollbar-gutter:stable}
 body{font-family:Oswald,Helvetica,Arial,sans-serif;font-size:24px;line-height:1.65em;font-weight:400}
 main{min-height:100vh}
@@ -66,6 +66,7 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 .contact-copy p{margin:20.4px 0}.contact-copy p:first-child{margin-top:20.4px}
 .email-button{font-size:24px;line-height:1.2;padding:25px 50px 23px;border:1px solid var(--white);margin:3px 0}
 .menu-header{position:relative;inset:auto;z-index:2;flex:none;height:var(--header)}
+.close-menu{height:var(--header)}
 .menu-header .header-head{bottom:1px}
 .header-head:focus:not(:focus-visible){outline:none}
 @media(hover:none) and (pointer:coarse){
@@ -90,6 +91,8 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 .media-dialog:not(.is-film) .dialog-bar{justify-content:flex-end}
 .media-dialog:not(.is-film) .dialog-bar h2,.media-dialog:not(.is-film) .gallery-controls{display:none}
 .media-dialog:not(.is-film) .dialog-content img{max-height:calc(92vh - 110px)}
+:is(.page-pictures,.page-films) .media-dialog{border:0}
+.page-pictures .media-dialog .dialog-bar{display:none}
 :is(.page-pictures,.page-films) .media-dialog{width:min(1000px,calc(100vw - 180px));max-width:calc(100vw - 180px);overflow:visible}
 :is(.page-pictures,.page-films) .media-dialog .gallery-controls{display:flex;position:absolute;left:-82px;right:-82px;top:50%;transform:translateY(-50%);padding:0;pointer-events:none}
 :is(.page-pictures,.page-films) .gallery-controls span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
@@ -112,14 +115,20 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 body:has(.media-dialog[open]){overflow:visible}
 @media(min-width:768px) and (max-width:1100px){.page-home .character{height:75vh;top:30vh}.page-home .yoshi{left:-24vw}.page-home .moshi{right:-24vw}}
 @media(min-width:1600px){.page-home .yoshi{left:clamp(-360px,-10vw,-200px)}.page-home .moshi{right:clamp(-360px,-10vw,-200px)}}
-@media(min-width:768px) and (max-width:1380px){:root{--header:80px}}
-@media(min-width:768px) and (max-width:1380px){.site-header .header-head{height:calc(var(--header) - 1px)}.menu-header .header-head{height:calc(var(--header) - 1px);bottom:1px}.site-header .header-head img,.menu-header .header-head img{top:0}}
+@media(min-width:768px){
+  .site-header .header-head,.menu-header .header-head{width:220px;height:calc(var(--header) - 1px)}
+  .menu-header .header-head{bottom:1px}
+  .site-header .head-left,.menu-header .head-left{width:270px}
+  .site-header .head-left img,.menu-header .head-left img{width:252.7px;height:284.654px;left:4px;top:-6px;object-fit:fill}
+  .site-header .head-right img,.menu-header .head-right img{width:240px;left:auto;right:-10px;top:-2px}
+}
 @media(min-width:768px) and (max-width:1380px){.home-stage{align-items:flex-start;padding-top:3rem}.wordmark{width:min(clamp(90px,16vw,200px),12vh)}.page-home .character{height:min(66vh,850px);top:max(360px,38vh)}}
 @media(min-width:768px){.page-about .menu-header .header-head,.page-home .menu-header .header-head{display:none}}
 @media(max-width:767px){
   :root{--header-drip-width:43vw}
-  .site-header .head-left img,.menu-header .head-left img{left:-38px}
-  .site-header .head-right img,.menu-header .head-right img{right:-38px}
+  .site-header .header-head,.menu-header .header-head{height:calc(var(--header) - 1px)}
+  .site-header .head-left img,.menu-header .head-left img{left:-38px;top:12px}
+  .site-header .head-right img,.menu-header .head-right img{right:-38px;top:12px}
   .archive{padding-top:70px}.page-intro{padding-top:0;margin-bottom:48px}.page-intro h1{line-height:.78}
   .page-news .archive{width:calc(92vw - 100px);padding-top:70px}.page-news .page-intro{padding-top:0}
   .intro-panel{padding:20px}.page-performances .intro-panel p{font-size:1.15rem;line-height:1.2}

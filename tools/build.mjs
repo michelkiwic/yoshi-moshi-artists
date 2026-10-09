@@ -20,6 +20,11 @@ for(const name of ['yoshi','moshi']){
     return {src,width};
   }));
   art.src=art.variants.at(-1).src;
+  art.mobileVariants=await Promise.all([360,540,720].map(async width=>{
+    const src=`media/mobile-${name}-${width}.webp`;
+    await sharp(source).resize({width}).grayscale().webp({quality:70,alphaQuality:85,effort:6}).toFile(path.join(dist,src));
+    return {src,width};
+  }));
 }
 const siteUrl=(process.env.SITE_URL||'').replace(/\/$/,'');
 const routes=['','news','performances','films','pictures','about','contact'];
@@ -44,9 +49,15 @@ function media(m) {
 }
 function panel(html) {return `<section class="intro-panel">${links(html)}</section>`;}
 function intro(page) {return `<header class="page-intro"><p class="kicker">${escape(page.kicker)}</p><h1>${escape(page.title)}</h1><p class="lede">${page.lede||''}</p></header>`;}
-function heads(){return `<a class="header-head head-left" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.yoshi,'','',true,'(max-width: 767px) 180px, (max-width: 1380px) 44vw, 260px')}</a><a class="header-head head-right" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.moshi,'','',true,'(max-width: 767px) 180px, (max-width: 1380px) 44vw, 240px')}</a>`;}
+function heads(){return `<a class="header-head head-left" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.yoshi,'','',true,'(max-width: 767px) 180px, 260px')}</a><a class="header-head head-right" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.moshi,'','',true,'(max-width: 767px) 180px, 240px')}</a>`;}
 function nav(active,overlay=false){return `<nav aria-label="${overlay?'Mobile':'Main'} navigation" class="${overlay?'mobile-links':'desktop-links'}">${routes.map((r,i)=>`<a href="${url(r?r+'/':'./')}" ${r===active?'aria-current="page"':''}>${escape(names[i])}</a>`).join('')}</nav>`;}
-function decoration(page){return `<div class="ambient" aria-hidden="true"><span class="dot dot-one"></span><span class="dot dot-two"></span><span class="dot dot-three"></span>${['home','about'].includes(page)?image(data.art.yoshi,'','character yoshi',true,'(max-width: 767px) 70vw, 50vw')+image(data.art.moshi,'','character moshi',true,'(max-width: 767px) 70vw, 50vw'):''}</div>`;}
+function character(name,page){
+  const art=data.art[name];
+  const img=image(art,'',`character ${name}`,true,'(max-width: 767px) 70vw, 50vw');
+  if(page!=='home')return img;
+  return `<picture><source media="(max-width: 767px)" srcset="${art.mobileVariants.map(v=>`${url(v.src)} ${v.width}w`).join(', ')}" sizes="min(44vh, 400px)">${img}</picture>`;
+}
+function decoration(page){return `<div class="ambient" aria-hidden="true"><span class="dot dot-one"></span><span class="dot dot-two"></span><span class="dot dot-three"></span>${['home','about'].includes(page)?character('yoshi',page)+character('moshi',page):''}</div>`;}
 function content(page){
   if(page==='home')return `<section class="home-stage"><h1>${image(data.art.logo,'Yoshi + Moshi','wordmark',true,'(max-width: 767px) 145px, 340px')}</h1><p class="sr-only">Artists based in Mendrisio TI, Switzerland. Discover our news, performances, films and pictures.</p></section>`;
   if(page==='about')return `<div class="about-content"><div class="about-intro"><header class="page-intro"><h1>Yoshi +<br>Moshi<br>artists</h1><p class="lede">${escape(data.about.lede)}</p></header>${panel(data.about.panel)}</div>${data.about.sections.map(s=>`<section class="timeline-section"><h2>${escape(s.title)}</h2>${links(s.html)}</section>`).join('')}</div>`;
