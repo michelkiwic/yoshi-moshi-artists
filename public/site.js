@@ -10,13 +10,12 @@ const entryGate=document.querySelector('.entry-gate');
 if(entryGate&&document.documentElement.hasAttribute('data-entry-pending')){
   entryGate.showModal();
   const enter=()=>{
-    try{sessionStorage.setItem('ym-humor-entered','1');}catch{}
     delete document.documentElement.dataset.entryPending;
     entryGate.close();
     const menuButton=document.querySelector('.menu-toggle');
     (menuButton.offsetParent?menuButton:document.querySelector('.desktop-links a')).focus({preventScroll:true});
   };
-  entryGate.querySelector('.entry-enter').addEventListener('click',enter);
+  entryGate.addEventListener('click',enter);
   entryGate.addEventListener('cancel',event=>{event.preventDefault();enter();});
 }
 if(isHome&&matchMedia('(pointer:coarse)').matches){
@@ -70,6 +69,14 @@ holes.forEach((hole,i)=>{
   }else if(isSubpage){hole.style.left=(i%2?between(94,99):between(1,6))+'%';hole.style.top=(26+rows[i]*25+between(0,8))+'%';}
 });
 const menu=document.querySelector('.menu-dialog');
+document.querySelectorAll('.entry-dot').forEach((dot,i)=>{
+  const source=holes[i];
+  for(const property of ['--ym-drift-x','--ym-drift-y','--ym-duration','--ym-delay','--ym-easing']){
+    dot.style.setProperty(property,source.style.getPropertyValue(property));
+  }
+  dot.style.animationDuration=source.style.animationDuration;
+  dot.style.animationDelay=source.style.animationDelay;
+});
 const toggle=document.querySelector('.menu-toggle');
 // Focus the close control, not the first decorative head link, when opening the dialog.
 menu.querySelector('.close-menu').autofocus=true;
