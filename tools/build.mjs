@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import sharp from 'sharp';
 const root=path.resolve(import.meta.dirname,'..');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/site.json'),'utf8'));
 const dist=path.join(root,'dist');
@@ -8,6 +9,18 @@ await fs.mkdir(dist,{recursive:true});
 await fs.cp(path.join(root,'public'),dist,{recursive:true});
 const currentMedia=new Set(await fs.readdir(path.join(root,'public/media')));
 for(const file of await fs.readdir(path.join(dist,'media')))if(!currentMedia.has(file))await fs.unlink(path.join(dist,'media',file));
+// Deliver lightweight responsive character assets instead of the large lossless originals.
+for(const name of ['yoshi','moshi']){
+  const art=data.art[name];
+  const source=path.join(root,'public',art.src);
+  const widths=[240,480,720,960,art.width].filter((w,i,a)=>w<=art.width&&a.indexOf(w)===i);
+  art.variants=await Promise.all(widths.map(async width=>{
+    const src=`media/optimized-${name}-${width}.webp`;
+    await sharp(source).resize({width}).webp({quality:82,alphaQuality:90,effort:6}).toFile(path.join(dist,src));
+    return {src,width};
+  }));
+  art.src=art.variants.at(-1).src;
+}
 const siteUrl=(process.env.SITE_URL||'').replace(/\/$/,'');
 const routes=['','news','performances','films','pictures','about','contact'];
 const names=['Yoshi + Moshi','News','Performances','Films','Pictures','About','Contact'];
@@ -31,7 +44,7 @@ function media(m) {
 }
 function panel(html) {return `<section class="intro-panel">${links(html)}</section>`;}
 function intro(page) {return `<header class="page-intro"><p class="kicker">${escape(page.kicker)}</p><h1>${escape(page.title)}</h1><p class="lede">${page.lede||''}</p></header>`;}
-function heads(){return `<a class="header-head head-left" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.yoshi,'','',false,'220px')}</a><a class="header-head head-right" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.moshi,'','',false,'220px')}</a>`;}
+function heads(){return `<a class="header-head head-left" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.yoshi,'','',true,'(max-width: 767px) 180px, (max-width: 1380px) 44vw, 260px')}</a><a class="header-head head-right" href="${url('./')}" aria-label="Yoshi + Moshi home">${image(data.art.moshi,'','',true,'(max-width: 767px) 180px, (max-width: 1380px) 44vw, 240px')}</a>`;}
 function nav(active,overlay=false){return `<nav aria-label="${overlay?'Mobile':'Main'} navigation" class="${overlay?'mobile-links':'desktop-links'}">${routes.map((r,i)=>`<a href="${url(r?r+'/':'./')}" ${r===active?'aria-current="page"':''}>${escape(names[i])}</a>`).join('')}</nav>`;}
 function decoration(page){return `<div class="ambient" aria-hidden="true"><span class="dot dot-one"></span><span class="dot dot-two"></span><span class="dot dot-three"></span>${['home','about'].includes(page)?image(data.art.yoshi,'','character yoshi',true,'(max-width: 767px) 70vw, 50vw')+image(data.art.moshi,'','character moshi',true,'(max-width: 767px) 70vw, 50vw'):''}</div>`;}
 function content(page){

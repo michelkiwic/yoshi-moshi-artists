@@ -70,6 +70,9 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 @media(hover:none) and (pointer:coarse){
   :focus,:focus-visible{outline:none!important}
   .media-dialog .close-media,.media-dialog.is-film .sound-toggle{border-color:transparent!important}
+  :is(.page-pictures,.page-films) .media-dialog{border:0;background:transparent;padding:0}
+  :is(.page-pictures,.page-films) .close-media{display:none}
+  .page-pictures .media-dialog .dialog-bar{display:none}
   .picture-card:hover,.picture-card:focus-visible,.film-card:hover,.film-card:focus-visible{outline-color:transparent!important;border-color:transparent}
 }
 .menu-header::before,.menu-header::after{content:"";position:absolute;top:calc(100% - 1px);width:var(--header-drip-width);aspect-ratio:3/2;background-size:contain;background-repeat:no-repeat;background-position:top center;pointer-events:none}
