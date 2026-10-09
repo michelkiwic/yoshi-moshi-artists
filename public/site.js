@@ -32,6 +32,8 @@ holes.forEach((hole,i)=>{
 });
 const menu=document.querySelector('.menu-dialog');
 const toggle=document.querySelector('.menu-toggle');
+// Focus the close control, not the first decorative head link, when opening the dialog.
+menu.querySelector('.close-menu').autofocus=true;
 toggle.addEventListener('click',()=>{menu.showModal();toggle.setAttribute('aria-expanded','true');});
 menu.querySelector('.close-menu').addEventListener('click',()=>menu.close());
 menu.addEventListener('close',()=>{toggle.setAttribute('aria-expanded','false');toggle.focus();});
