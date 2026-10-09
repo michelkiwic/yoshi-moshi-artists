@@ -20,7 +20,7 @@
 .contact-invitation:hover{background:#deddd8}
 .contact-invitation:hover .contact-arrow,.contact-invitation:focus-visible .contact-arrow{transform:translate(3px,-3px)}
 .contact-invitation:focus-visible{outline:2px solid var(--white);outline-offset:6px}
-.contact-details{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;border-top:1px solid var(--line);padding-top:26px;margin-top:16px}
+.contact-details{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:28px;border-top:1px solid var(--line);padding-top:26px;margin-top:16px}
 .contact-details p{margin:0;font-size:clamp(19px,1.6vw,24px);line-height:1.5}
 .contact-details p:first-child{text-transform:uppercase;letter-spacing:.09em;font-weight:700}
 @media (min-width:768px){
@@ -56,6 +56,7 @@
   .contact-yoshi{left:-8%}.contact-moshi{right:-8%}
   .contact-details{grid-template-columns:1fr 1fr;gap:20px;margin-top:0}
   .contact-details p:first-child{grid-column:1 / -1}
+  .contact-details p:last-child{grid-column:1 / -1}
   .contact-details p{font-size:clamp(1.15rem,2vw,1.65rem)}
 }
 @media (max-width:359px){

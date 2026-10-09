@@ -97,13 +97,13 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 :is(.page-pictures,.page-films) .media-dialog .gallery-controls{display:flex;position:absolute;left:-82px;right:-82px;top:50%;transform:translateY(-50%);padding:0;pointer-events:none}
 :is(.page-pictures,.page-films) .gallery-controls span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 :is(.page-pictures,.page-films) .gallery-controls button{pointer-events:auto;display:grid;place-items:center;width:64px;height:96px;padding:8px;background:transparent;border:0;color:var(--white);font-size:0;cursor:pointer;transition:opacity .2s}
-:is(.page-pictures,.page-films) .gallery-controls button::before{content:'';display:block;width:48px;height:72px;background:currentColor;clip-path:polygon(100% 0,0 50%,100% 100%)}
-:is(.page-pictures,.page-films) .gallery-controls button[data-direction="1"]::before{clip-path:polygon(0 0,100% 50%,0 100%)}
+:is(.page-pictures,.page-films) .gallery-controls button::before{content:'';display:block;width:40px;height:40px;background:transparent;border-left:4px solid currentColor;border-bottom:4px solid currentColor;transform:rotate(45deg)}
+:is(.page-pictures,.page-films) .gallery-controls button[data-direction="1"]::before{transform:rotate(225deg)}
 :is(.page-pictures,.page-films) .gallery-controls button:hover,:is(.page-pictures,.page-films) .gallery-controls button.is-image-hover{opacity:.65}
 :is(.page-pictures,.page-films) .gallery-controls button:disabled{visibility:hidden;pointer-events:none}
 :is(.page-pictures,.page-films) .gallery-controls button:focus-visible{outline:2px solid var(--white);outline-offset:3px}
 :is(.page-pictures,.page-films) .dialog-content img{cursor:pointer}
-@media(max-width:767px){:is(.page-pictures,.page-films) .media-dialog{width:calc(100vw - 88px);max-width:calc(100vw - 88px)}:is(.page-pictures,.page-films) .media-dialog .gallery-controls{left:-42px;right:-42px}:is(.page-pictures,.page-films) .gallery-controls button{width:38px;height:64px;padding:6px}:is(.page-pictures,.page-films) .gallery-controls button::before{width:26px;height:42px}}
+@media(max-width:767px){:is(.page-pictures,.page-films) .media-dialog{width:calc(100vw - 88px);max-width:calc(100vw - 88px)}:is(.page-pictures,.page-films) .media-dialog .gallery-controls{left:-42px;right:-42px}:is(.page-pictures,.page-films) .gallery-controls button{width:38px;height:64px;padding:6px}:is(.page-pictures,.page-films) .gallery-controls button::before{width:22px;height:22px;border-width:3px}}
 .media-dialog.is-film .dialog-content video{max-height:calc(92vh - 100px)}
 .sound-toggle{display:none}
 .media-dialog.is-film .dialog-bar h2{flex:1;min-width:0}
@@ -124,6 +124,11 @@ body:has(.media-dialog[open]){overflow:visible}
 }
 @media(min-width:768px) and (max-width:1380px){.home-stage{align-items:flex-start;padding-top:3rem}.wordmark{width:min(clamp(90px,16vw,200px),12vh)}.page-home .character{height:min(66vh,850px);top:max(360px,38vh)}}
 @media(min-width:768px){.page-about .menu-header .header-head,.page-home .menu-header .header-head{display:none}}
+@media(min-width:768px){
+  .page-home .character{width:min(36vw,calc((100dvh - var(--header) - 140px)*.78),700px);height:auto;top:auto;bottom:24px}
+  .page-home .yoshi{left:24px;z-index:2}
+  .page-home .moshi{right:24px;z-index:1}
+}
 @media(max-width:767px){
   :root{--header-drip-width:43vw}
   .site-header .header-head,.menu-header .header-head{height:calc(var(--header) - 1px)}

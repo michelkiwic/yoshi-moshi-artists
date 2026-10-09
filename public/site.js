@@ -6,6 +6,19 @@ const rows=[0,1,2].sort(()=>Math.random()-.5);
 const headerBottom=document.querySelector('.site-header').getBoundingClientRect().bottom;
 const isSubpage=!document.body.classList.contains('page-home')&&!document.body.classList.contains('page-about');
 const isHome=document.body.classList.contains('page-home');
+const entryGate=document.querySelector('.entry-gate');
+if(entryGate&&document.documentElement.hasAttribute('data-entry-pending')){
+  entryGate.showModal();
+  const enter=()=>{
+    try{sessionStorage.setItem('ym-humor-entered','1');}catch{}
+    delete document.documentElement.dataset.entryPending;
+    entryGate.close();
+    const menuButton=document.querySelector('.menu-toggle');
+    (menuButton.offsetParent?menuButton:document.querySelector('.desktop-links a')).focus({preventScroll:true});
+  };
+  entryGate.querySelector('.entry-enter').addEventListener('click',enter);
+  entryGate.addEventListener('cancel',event=>{event.preventDefault();enter();});
+}
 if(isHome&&matchMedia('(pointer:coarse)').matches){
   let touching=false,returning=false,returnTimer;
   const scheduleReturn=()=>{

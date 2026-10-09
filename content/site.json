@@ -1,7 +1,7 @@
 {
   "home": {},
   "news": {
-    "kicker": "YOSHI + MOSHI / ARCHIVE",
+    "kicker": "YOSHI + MOSHI / LOG",
     "title": "NEWS",
     "lede": "Latest signals, exhibitions, films and encounters.",
     "panel": "<p>Yoshi + Moshi keep showing up. In exhibitions, in films, and sometimes where you least expect them. Not everything makes the news, but some things make it here. Anyway, a few updates below.</p>",
@@ -1460,7 +1460,7 @@
     ]
   },
   "contact": {
-    "html": "<p>Yoshi + Moshi artists</p>\n<p>Via Industria 21<br>\n6850 Mendrisio TI<br>\nSwitzerland</p>\n<p>Curator: Nina Staehli</p>",
+    "html": "<p>Yoshi + Moshi artists</p>\n<p>c/o Nina Staehli<br>\nVia Industria 21<br>\n6850 Mendrisio TI<br>\nSwitzerland</p>",
     "email": "mailto:yoshi-moshi@yoshi-moshi.com",
     "media": [
       {

@@ -74,7 +74,7 @@ const font=data.fonts.find(f=>/woff2$/.test(f.src))||data.fonts[0];
 if(!font)throw new Error('No local Oswald font imported');
 await fs.writeFile(path.join(dist,'font.css'),`@font-face{font-family:Oswald;src:url("${font.src}") format("${font.src.endsWith('woff2')?'woff2':font.src.endsWith('woff')?'woff':'truetype'}");font-style:normal;font-weight:${font.weight||400};font-display:swap}`);
 await fs.writeFile(path.join(dist,'art.css'),`:root{--drip-left:url("${data.art.dripLeft.src}");--drip-right:url("${data.art.dripRight.src}")}`);
-const revisions=Object.fromEntries(await Promise.all(['font.css','art.css','site.css','fidelity.css','contact.css','site.js'].map(async file=>[file,crypto.createHash('sha256').update(await fs.readFile(path.join(dist,file))).digest('hex').slice(0,10)])));
+const revisions=Object.fromEntries(await Promise.all(['font.css','art.css','site.css','fidelity.css','contact.css','entry.css','site.js'].map(async file=>[file,crypto.createHash('sha256').update(await fs.readFile(path.join(dist,file))).digest('hex').slice(0,10)])));
 for(const route of routes){
   prefix=route?'../':'';
   const page=route||'home';
@@ -86,7 +86,9 @@ for(const route of routes){
   const dir=path.join(dist,route);
   await fs.mkdir(dir,{recursive:true});
   const faithfulHtml=html.replace('</head>',`<link rel="stylesheet" href="${url('fidelity.css')}">${page==='contact'?`<link rel="stylesheet" href="${url('contact.css')}">`:''}</head>`).replace(/((?:src|href)=")([^"]+\.(?:css|js))"/g,(_,start,ref)=>`${start}${ref}?v=${revisions[path.basename(ref)]}"`);
-  await fs.writeFile(path.join(dir,'index.html'),faithfulHtml);
+  const entryMarkup=page==='home'?`<dialog class="entry-gate" id="entry-gate" aria-labelledby="entry-title"><p class="entry-brand">YOSHI + MOSHI</p><div class="entry-dots" aria-hidden="true"><i class="entry-dot"></i><i class="entry-dot"></i><i class="entry-dot"></i></div><div class="entry-message"><h2 id="entry-title"><span>NO HUMOR</span><span>= NO ENTRY</span></h2><button class="entry-enter" type="button" autofocus>I BROUGHT HUMOR <span aria-hidden="true">↗</span></button></div></dialog>`:'';
+  const entryHtml=page==='home'?faithfulHtml.replace('</head>',`<link rel="stylesheet" href="${url('entry.css')}?v=${revisions['entry.css']}"><script>try{if(!sessionStorage.getItem('ym-humor-entered'))document.documentElement.dataset.entryPending='';}catch{document.documentElement.dataset.entryPending='';}</script></head>`).replace('</body>',`${entryMarkup}</body>`):faithfulHtml;
+  await fs.writeFile(path.join(dir,'index.html'),entryHtml);
 }
 // Existing bookmarked WordPress paths continue to work without a server.
 for(const [old,next] of [['film-performances-yoshi-moshi','films'],['yoshi-moshi-3','contact'],['log','news']]){
