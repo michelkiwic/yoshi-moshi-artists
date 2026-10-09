@@ -9,14 +9,19 @@ const isHome=document.body.classList.contains('page-home');
 const entryGate=document.querySelector('.entry-gate');
 if(entryGate&&document.documentElement.hasAttribute('data-entry-pending')){
   entryGate.showModal();
-  const enter=()=>{
+  const enter=({openNavigation=false}={})=>{
     delete document.documentElement.dataset.entryPending;
     entryGate.close();
     const menuButton=document.querySelector('.menu-toggle');
-    (menuButton.offsetParent?menuButton:document.querySelector('.desktop-links a')).focus({preventScroll:true});
+    if(openNavigation){
+      menu.showModal();
+      menuButton.setAttribute('aria-expanded','true');
+      document.querySelector('.wordmark-menu')?.setAttribute('aria-expanded','true');
+    }else (menuButton.offsetParent?menuButton:document.querySelector('.desktop-links a')).focus({preventScroll:true});
   };
   entryGate.addEventListener('click',enter);
   entryGate.addEventListener('cancel',event=>{event.preventDefault();enter();});
+  document.querySelector('.wordmark-menu')?.addEventListener('click',()=>enter({openNavigation:true}));
 }
 if(isHome&&matchMedia('(pointer:coarse)').matches){
   let touching=false,returning=false,returnTimer;
@@ -78,11 +83,14 @@ document.querySelectorAll('.entry-dot').forEach((dot,i)=>{
   dot.style.animationDelay=source.style.animationDelay;
 });
 const toggle=document.querySelector('.menu-toggle');
+const wordmarkMenu=document.querySelector('.wordmark-menu');
+const openMenu=()=>{if(entryGate?.open){delete document.documentElement.dataset.entryPending;entryGate.close();}menu.showModal();toggle.setAttribute('aria-expanded','true');wordmarkMenu?.setAttribute('aria-expanded','true');};
 // Focus the close control, not the first decorative head link, when opening the dialog.
 menu.querySelector('.close-menu').autofocus=true;
-toggle.addEventListener('click',()=>{menu.showModal();toggle.setAttribute('aria-expanded','true');});
+toggle.addEventListener('click',openMenu);
+wordmarkMenu?.addEventListener('click',openMenu);
 menu.querySelector('.close-menu').addEventListener('click',()=>menu.close());
-menu.addEventListener('close',()=>{toggle.setAttribute('aria-expanded','false');toggle.focus();});
+menu.addEventListener('close',()=>{toggle.setAttribute('aria-expanded','false');wordmarkMenu?.setAttribute('aria-expanded','false');toggle.focus();});
 const dialog=document.querySelector('.media-dialog');
 const content=dialog.querySelector('.dialog-content');
 const title=dialog.querySelector('h2');

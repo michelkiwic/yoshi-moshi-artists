@@ -20,7 +20,9 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 .site-header::before,.site-header::after{width:var(--header-drip-width);aspect-ratio:3/2;background-position:top center;transform-origin:top center}
 .home-stage{display:flex;justify-content:center;align-items:center;width:min(94vw,1500px);margin:0 auto;min-height:calc(100vh - 100px);padding:0}
 .home-stage h1{line-height:0;transform:none;font-size:clamp(3.5rem,5.2vw,6.5rem);letter-spacing:-.04em}
+.wordmark-menu{display:block;background:transparent;border:0;padding:0;line-height:0;cursor:pointer}
 .wordmark{max-width:none;width:min(22vw,340px);filter:drop-shadow(1px 0 0 var(--black)) drop-shadow(-1px 0 0 var(--black)) drop-shadow(0 1px 0 var(--black)) drop-shadow(0 -1px 0 var(--black))}
+.wordmark-menu:focus-visible{outline:2px solid currentColor;outline-offset:6px}
 .page-home .character{height:min(96vh,1200px);width:auto;top:max(300px,27vh);bottom:auto}
 .page-home .yoshi{left:-20vw}.page-home .moshi{right:-20vw}
 .page-about .yoshi{left:-12vw;width:min(900px,calc((100vw - min(38vw,680px))/2 + 12vw - 32px),calc((100dvh - 80px)*.702))}
