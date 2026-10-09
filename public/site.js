@@ -6,6 +6,28 @@ const rows=[0,1,2].sort(()=>Math.random()-.5);
 const headerBottom=document.querySelector('.site-header').getBoundingClientRect().bottom;
 const isSubpage=!document.body.classList.contains('page-home')&&!document.body.classList.contains('page-about');
 const isHome=document.body.classList.contains('page-home');
+if(isHome&&matchMedia('(pointer:coarse)').matches){
+  let touching=false,returning=false,returnTimer;
+  const scheduleReturn=()=>{
+    clearTimeout(returnTimer);
+    if(touching||returning||document.querySelector('dialog[open]'))return;
+    returnTimer=setTimeout(()=>{
+      if(touching||document.querySelector('dialog[open]')||scrollY<=0)return;
+      returning=true;
+      window.scrollTo({top:0,behavior:'smooth'});
+      returnTimer=setTimeout(()=>{returning=false;},800);
+    },160);
+  };
+  window.addEventListener('touchstart',()=>{
+    touching=true;clearTimeout(returnTimer);
+    if(returning)window.scrollTo({top:scrollY,behavior:'instant'});
+    returning=false;
+  },{passive:true});
+  const release=event=>{touching=event.touches.length>0;scheduleReturn();};
+  window.addEventListener('touchend',release,{passive:true});
+  window.addEventListener('touchcancel',release,{passive:true});
+  window.addEventListener('scroll',scheduleReturn,{passive:true});
+}
 const between=(min,max)=>min+Math.random()*Math.max(0,max-min);
 holes.forEach((hole,i)=>{
   const radius=hole.getBoundingClientRect().width/2;
@@ -23,7 +45,14 @@ holes.forEach((hole,i)=>{
   const driftY=wobbleReach*between(.7,1)*(Math.random()<.5?-1:1);
   hole.style.left=left+'px';hole.style.right='auto';hole.style.top=between(upper,lower)+'px';
   hole.style.setProperty('--ym-drift-x',driftX+'px');hole.style.setProperty('--ym-drift-y',driftY+'px');
-  hole.style.animationDuration=between(5,8)+'s';hole.style.animationDelay=-between(0,8)+'s';
+  const duration=between(5+i*2,7+i*2)+'s';
+  const delay=-between(0,12)+'s';
+  const easing=`cubic-bezier(${between(.25,.5)},0,${between(.5,.75)},1)`;
+  hole.style.setProperty('--ym-duration',duration);
+  hole.style.setProperty('--ym-delay',delay);
+  hole.style.setProperty('--ym-easing',easing);
+  hole.style.animationDuration=duration;hole.style.animationDelay=delay;
+  hole.style.animationTimingFunction=easing;
   if(isHome){
     const centers=[.353,.647,.5],vertical=[.17,.52,.84];
     hole.style.left=(viewportWidth*(centers[i]+between(-.033,.033)))+'px';
