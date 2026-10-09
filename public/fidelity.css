@@ -4,6 +4,7 @@
 html{scrollbar-gutter:stable}
 body{font-family:Oswald,Helvetica,Arial,sans-serif;font-size:24px;line-height:1.65em;font-weight:400}
 main{min-height:100vh}
+@media(pointer:coarse){.page-home main{min-height:calc(100vh - var(--header) / 2)}}
 .desktop-links{gap:0;position:absolute;top:50%;bottom:auto;height:50px;transform:translateY(calc(-50% + 8px))}
 .desktop-links a{padding:0 13px;font-size:22px;font-weight:700;letter-spacing:.15em;line-height:50px}
 .desktop-links a:hover,.desktop-links a[aria-current]{color:var(--white);opacity:.55}
@@ -121,8 +122,8 @@ body:has(.media-dialog[open]){overflow:visible}
   .page-news .archive{padding-top:20px}.page-news .page-intro{padding-top:24px}
   .intro-panel{padding:20px}.page-performances .intro-panel p{font-size:1.15rem;line-height:1.2}
   .dot{height:7.5rem;width:7.5rem}
-  .page-about .dot-one,.page-about .dot-three{left:calc(50% - ((100vw - 48px)/2 + 3.75rem + 80px))!important}
-  .page-about .dot-two{left:calc(50% + ((100vw - 48px)/2 + 3.75rem + 80px))!important}
+  .page-about .dot-one,.page-about .dot-three{left:4%!important}
+  .page-about .dot-two{left:96%!important}
   .home-stage{align-items:flex-start;min-height:calc(100vh - 70px);padding:3rem 7vw 0;width:auto}
   .page-home .site-header .header-head,.page-home .menu-header .header-head{display:none}
   .wordmark{width:min(36vw,145px)}.page-home .character{height:min(55vh,500px);width:auto;top:48vh}.page-home .yoshi{left:-36vw;z-index:2}.page-home .moshi{right:-36vw;z-index:1}

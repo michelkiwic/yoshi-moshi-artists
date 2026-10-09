@@ -9,14 +9,11 @@ const isHome=document.body.classList.contains('page-home');
 if(isHome&&matchMedia('(pointer:coarse)').matches){
   let touching=false,returning=false,returnTimer;
   const scheduleReturn=()=>{
+    if(touching||returning||document.querySelector('dialog[open]')||scrollY<=0)return;
     clearTimeout(returnTimer);
-    if(touching||returning||document.querySelector('dialog[open]'))return;
-    returnTimer=setTimeout(()=>{
-      if(touching||document.querySelector('dialog[open]')||scrollY<=0)return;
-      returning=true;
-      window.scrollTo({top:0,behavior:'smooth'});
-      returnTimer=setTimeout(()=>{returning=false;},800);
-    },160);
+    returning=true;
+    window.scrollTo({top:0,behavior:'smooth'});
+    returnTimer=setTimeout(()=>{returning=false;},800);
   };
   window.addEventListener('touchstart',()=>{
     touching=true;clearTimeout(returnTimer);
