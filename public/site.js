@@ -9,7 +9,7 @@ const isHome=document.body.classList.contains('page-home');
 const between=(min,max)=>min+Math.random()*Math.max(0,max-min);
 holes.forEach((hole,i)=>{
   const radius=hole.getBoundingClientRect().width/2;
-  const wobbleReach=Math.min(isHome?86:64,viewportWidth*(isHome?.16:.12),viewportHeight*(isHome?.133:.1));
+  const wobbleReach=viewportWidth<=767?(isHome?86:64):Math.min(isHome?86:64,viewportWidth*(isHome?.16:.12),viewportHeight*(isHome?.133:.1));
   const inset=radius+wobbleReach+8;
   const columnWidth=viewportWidth/3;
   const top=headerBottom+inset;
