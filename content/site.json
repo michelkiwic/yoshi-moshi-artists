@@ -1,7 +1,7 @@
 {
   "home": {},
   "news": {
-    "kicker": "YOSHI + MOSHI / LIVE ARCHIVE",
+    "kicker": "YOSHI + MOSHI / ARCHIVE",
     "title": "NEWS",
     "lede": "Latest signals, exhibitions, films and encounters.",
     "panel": "<p>Yoshi + Moshi keep showing up. In exhibitions, in films, and sometimes where you least expect them. Not everything makes the news, but some things make it here. Anyway, a few updates below.</p>",
@@ -464,7 +464,7 @@
     ]
   },
   "films": {
-    "kicker": "YOSHI + MOSHI / MOVING IMAGE",
+    "kicker": "YOSHI + MOSHI / MOVING",
     "title": "FILMS",
     "lede": "Short films, live moments and moving<br>images.",
     "panel": "<p>Yoshi + Moshi keep moving. Sometimes on stage, sometimes on screen, and sometimes without much of a plan. Not every moment makes it into a film, but a few do. Anyway, press play and see what happens.</p>",
