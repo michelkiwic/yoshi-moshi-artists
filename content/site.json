@@ -623,817 +623,1135 @@
     "panel": "<p>Yoshi + Moshi are not always easy to pin down. Sometimes a camera helps. On stage, on the road, or somewhere in between — a few moments stayed still long enough to end up here. Anyway, take a look.</p>",
     "entries": [
       {
-        "src": "media/yoshi-moshi-stills-3e4543404430-1800.webp",
-        "width": 1800,
-        "height": 1200,
+        "src": "media/gallery-new-yoshi-moshi-100-1920.webp",
+        "width": 1920,
+        "height": 1276,
         "variants": [
           {
-            "src": "media/yoshi-moshi-stills-3e4543404430-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-100-360.webp",
             "width": 360,
-            "bytes": 22206
+            "bytes": 35912
           },
           {
-            "src": "media/yoshi-moshi-stills-3e4543404430-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-100-720.webp",
             "width": 720,
-            "bytes": 60046
+            "bytes": 143544
           },
           {
-            "src": "media/yoshi-moshi-stills-3e4543404430-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-100-1200.webp",
             "width": 1200,
-            "bytes": 112218
+            "bytes": 371718
           },
           {
-            "src": "media/yoshi-moshi-stills-3e4543404430-1800.webp",
-            "width": 1800,
-            "bytes": 177502
+            "src": "media/gallery-new-yoshi-moshi-100-1920.webp",
+            "width": 1920,
+            "bytes": 804272
           }
         ],
-        "originalBytes": 1457397,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 3831564,
+        "alt": "Yoshi + Moshi — photograph 1"
       },
       {
-        "src": "media/yoshi-moshi-stills4-feb341a55d4e-1800.webp",
-        "width": 1800,
-        "height": 1200,
+        "src": "media/gallery-new-yoshi-moshi-102-1920.webp",
+        "width": 1920,
+        "height": 1280,
         "variants": [
           {
-            "src": "media/yoshi-moshi-stills4-feb341a55d4e-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-102-360.webp",
             "width": 360,
-            "bytes": 22382
+            "bytes": 14428
           },
           {
-            "src": "media/yoshi-moshi-stills4-feb341a55d4e-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-102-720.webp",
             "width": 720,
-            "bytes": 60572
+            "bytes": 53964
           },
           {
-            "src": "media/yoshi-moshi-stills4-feb341a55d4e-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-102-1200.webp",
             "width": 1200,
-            "bytes": 115698
+            "bytes": 132722
           },
           {
-            "src": "media/yoshi-moshi-stills4-feb341a55d4e-1800.webp",
-            "width": 1800,
-            "bytes": 186712
+            "src": "media/gallery-new-yoshi-moshi-102-1920.webp",
+            "width": 1920,
+            "bytes": 278738
           }
         ],
-        "originalBytes": 1528901,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 3553050,
+        "alt": "Yoshi + Moshi — photograph 2"
       },
       {
-        "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1800.webp",
-        "width": 1800,
-        "height": 1200,
+        "src": "media/gallery-new-yoshi-moshi-103-1920.webp",
+        "width": 1920,
+        "height": 1364,
         "variants": [
           {
-            "src": "media/yoshi-moshi-stills2-d012bc72d4e5-360.webp",
-            "width": 360,
-            "bytes": 15686
-          },
-          {
-            "src": "media/yoshi-moshi-stills2-d012bc72d4e5-720.webp",
-            "width": 720,
-            "bytes": 45780
-          },
-          {
-            "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1200.webp",
-            "width": 1200,
-            "bytes": 92522
-          },
-          {
-            "src": "media/yoshi-moshi-stills2-d012bc72d4e5-1800.webp",
-            "width": 1800,
-            "bytes": 153636
-          }
-        ],
-        "originalBytes": 1385322,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-1-3f3dc49a8c93-1400.webp",
-        "width": 1400,
-        "height": 934,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-1-3f3dc49a8c93-360.webp",
-            "width": 360,
-            "bytes": 15778
-          },
-          {
-            "src": "media/yoshi-moshi-1-3f3dc49a8c93-720.webp",
-            "width": 720,
-            "bytes": 42696
-          },
-          {
-            "src": "media/yoshi-moshi-1-3f3dc49a8c93-1200.webp",
-            "width": 1200,
-            "bytes": 94822
-          },
-          {
-            "src": "media/yoshi-moshi-1-3f3dc49a8c93-1400.webp",
-            "width": 1400,
-            "bytes": 122130
-          }
-        ],
-        "originalBytes": 1006501,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2-poster.webp",
-        "width": 484,
-        "height": 338,
-        "originalBytes": 4491353,
-        "video": {
-          "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2.mp4",
-          "bytes": 195859
-        },
-        "poster": {
-          "src": "media/yoshi-moshi-universo-immersivo-new-2-4fdfbcad61f2-poster.webp",
-          "width": 484,
-          "height": 338
-        },
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-30-de574af22239-1400.webp",
-        "width": 1400,
-        "height": 788,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-30-de574af22239-360.webp",
-            "width": 360,
-            "bytes": 6790
-          },
-          {
-            "src": "media/yoshi-moshi-30-de574af22239-720.webp",
-            "width": 720,
-            "bytes": 17188
-          },
-          {
-            "src": "media/yoshi-moshi-30-de574af22239-1200.webp",
-            "width": 1200,
-            "bytes": 42770
-          },
-          {
-            "src": "media/yoshi-moshi-30-de574af22239-1400.webp",
-            "width": 1400,
-            "bytes": 57052
-          }
-        ],
-        "originalBytes": 580462,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-29-4eeb3de68173-1400.webp",
-        "width": 1400,
-        "height": 1050,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-29-4eeb3de68173-360.webp",
-            "width": 360,
-            "bytes": 7594
-          },
-          {
-            "src": "media/yoshi-moshi-29-4eeb3de68173-720.webp",
-            "width": 720,
-            "bytes": 21350
-          },
-          {
-            "src": "media/yoshi-moshi-29-4eeb3de68173-1200.webp",
-            "width": 1200,
-            "bytes": 46096
-          },
-          {
-            "src": "media/yoshi-moshi-29-4eeb3de68173-1400.webp",
-            "width": 1400,
-            "bytes": 58310
-          }
-        ],
-        "originalBytes": 664123,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-27-7e10c82f96e3-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-27-7e10c82f96e3-360.webp",
-            "width": 360,
-            "bytes": 19256
-          },
-          {
-            "src": "media/yoshi-moshi-27-7e10c82f96e3-720.webp",
-            "width": 720,
-            "bytes": 52688
-          },
-          {
-            "src": "media/yoshi-moshi-27-7e10c82f96e3-1200.webp",
-            "width": 1200,
-            "bytes": 105304
-          },
-          {
-            "src": "media/yoshi-moshi-27-7e10c82f96e3-1400.webp",
-            "width": 1400,
-            "bytes": 130254
-          }
-        ],
-        "originalBytes": 967672,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1800.webp",
-        "width": 1800,
-        "height": 1200,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-360.webp",
-            "width": 360,
-            "bytes": 18430
-          },
-          {
-            "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-720.webp",
-            "width": 720,
-            "bytes": 48968
-          },
-          {
-            "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1200.webp",
-            "width": 1200,
-            "bytes": 91434
-          },
-          {
-            "src": "media/yoshi-moshi-stills3-e9bbc20c87fc-1800.webp",
-            "width": 1800,
-            "bytes": 147224
-          }
-        ],
-        "originalBytes": 1378921,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-26-a8843a6b6a12-1050.webp",
-        "width": 1050,
-        "height": 1400,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-26-a8843a6b6a12-360.webp",
-            "width": 360,
-            "bytes": 63230
-          },
-          {
-            "src": "media/yoshi-moshi-26-a8843a6b6a12-720.webp",
-            "width": 720,
-            "bytes": 213062
-          },
-          {
-            "src": "media/yoshi-moshi-26-a8843a6b6a12-1050.webp",
-            "width": 1050,
-            "bytes": 396758
-          }
-        ],
-        "originalBytes": 1692664,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-4-a8b609466472-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-4-a8b609466472-360.webp",
-            "width": 360,
-            "bytes": 18144
-          },
-          {
-            "src": "media/yoshi-moshi-4-a8b609466472-720.webp",
-            "width": 720,
-            "bytes": 51202
-          },
-          {
-            "src": "media/yoshi-moshi-4-a8b609466472-1200.webp",
-            "width": 1200,
-            "bytes": 101250
-          },
-          {
-            "src": "media/yoshi-moshi-4-a8b609466472-1400.webp",
-            "width": 1400,
-            "bytes": 127052
-          }
-        ],
-        "originalBytes": 1004855,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-24-2ca1cc5c39a1-360.webp",
-            "width": 360,
-            "bytes": 34430
-          },
-          {
-            "src": "media/yoshi-moshi-24-2ca1cc5c39a1-720.webp",
-            "width": 720,
-            "bytes": 133856
-          },
-          {
-            "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1200.webp",
-            "width": 1200,
-            "bytes": 341632
-          },
-          {
-            "src": "media/yoshi-moshi-24-2ca1cc5c39a1-1400.webp",
-            "width": 1400,
-            "bytes": 450688
-          }
-        ],
-        "originalBytes": 1959912,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-23-349c046a74bf-933.webp",
-        "width": 933,
-        "height": 1400,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-23-349c046a74bf-360.webp",
-            "width": 360,
-            "bytes": 11914
-          },
-          {
-            "src": "media/yoshi-moshi-23-349c046a74bf-720.webp",
-            "width": 720,
-            "bytes": 38216
-          },
-          {
-            "src": "media/yoshi-moshi-23-349c046a74bf-933.webp",
-            "width": 933,
-            "bytes": 61288
-          }
-        ],
-        "originalBytes": 655901,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-hablame-2-4ea02426aef4-1280.webp",
-        "width": 1280,
-        "height": 960,
-        "variants": [
-          {
-            "src": "media/yoshi-hablame-2-4ea02426aef4-360.webp",
-            "width": 360,
-            "bytes": 22198
-          },
-          {
-            "src": "media/yoshi-hablame-2-4ea02426aef4-720.webp",
-            "width": 720,
-            "bytes": 99002
-          },
-          {
-            "src": "media/yoshi-hablame-2-4ea02426aef4-1200.webp",
-            "width": 1200,
-            "bytes": 244838
-          },
-          {
-            "src": "media/yoshi-hablame-2-4ea02426aef4-1280.webp",
-            "width": 1280,
-            "bytes": 275126
-          }
-        ],
-        "originalBytes": 1035128,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-22-07571ac52f6a-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-22-07571ac52f6a-360.webp",
-            "width": 360,
-            "bytes": 5042
-          },
-          {
-            "src": "media/yoshi-moshi-22-07571ac52f6a-720.webp",
-            "width": 720,
-            "bytes": 14328
-          },
-          {
-            "src": "media/yoshi-moshi-22-07571ac52f6a-1200.webp",
-            "width": 1200,
-            "bytes": 37700
-          },
-          {
-            "src": "media/yoshi-moshi-22-07571ac52f6a-1400.webp",
-            "width": 1400,
-            "bytes": 52026
-          }
-        ],
-        "originalBytes": 771940,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-21-7cd5fb327385-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-21-7cd5fb327385-360.webp",
-            "width": 360,
-            "bytes": 8802
-          },
-          {
-            "src": "media/yoshi-moshi-21-7cd5fb327385-720.webp",
-            "width": 720,
-            "bytes": 24636
-          },
-          {
-            "src": "media/yoshi-moshi-21-7cd5fb327385-1200.webp",
-            "width": 1200,
-            "bytes": 51368
-          },
-          {
-            "src": "media/yoshi-moshi-21-7cd5fb327385-1400.webp",
-            "width": 1400,
-            "bytes": 65202
-          }
-        ],
-        "originalBytes": 769125,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-20-969f9e16a86c-1400.webp",
-        "width": 1400,
-        "height": 1050,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-20-969f9e16a86c-360.webp",
-            "width": 360,
-            "bytes": 28520
-          },
-          {
-            "src": "media/yoshi-moshi-20-969f9e16a86c-720.webp",
-            "width": 720,
-            "bytes": 89916
-          },
-          {
-            "src": "media/yoshi-moshi-20-969f9e16a86c-1200.webp",
-            "width": 1200,
-            "bytes": 195154
-          },
-          {
-            "src": "media/yoshi-moshi-20-969f9e16a86c-1400.webp",
-            "width": 1400,
-            "bytes": 249992
-          }
-        ],
-        "originalBytes": 1368956,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-19-c2ba1a918778-1400.webp",
-        "width": 1400,
-        "height": 788,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-19-c2ba1a918778-360.webp",
-            "width": 360,
-            "bytes": 9184
-          },
-          {
-            "src": "media/yoshi-moshi-19-c2ba1a918778-720.webp",
-            "width": 720,
-            "bytes": 22410
-          },
-          {
-            "src": "media/yoshi-moshi-19-c2ba1a918778-1200.webp",
-            "width": 1200,
-            "bytes": 41532
-          },
-          {
-            "src": "media/yoshi-moshi-19-c2ba1a918778-1400.webp",
-            "width": 1400,
-            "bytes": 49508
-          }
-        ],
-        "originalBytes": 435732,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-18-95a8be256b13-1400.webp",
-        "width": 1400,
-        "height": 931,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-18-95a8be256b13-360.webp",
-            "width": 360,
-            "bytes": 32054
-          },
-          {
-            "src": "media/yoshi-moshi-18-95a8be256b13-720.webp",
-            "width": 720,
-            "bytes": 121868
-          },
-          {
-            "src": "media/yoshi-moshi-18-95a8be256b13-1200.webp",
-            "width": 1200,
-            "bytes": 256562
-          },
-          {
-            "src": "media/yoshi-moshi-18-95a8be256b13-1400.webp",
-            "width": 1400,
-            "bytes": 305868
-          }
-        ],
-        "originalBytes": 1210322,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-17-9daf8c6357d3-1400.webp",
-        "width": 1400,
-        "height": 933,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-17-9daf8c6357d3-360.webp",
-            "width": 360,
-            "bytes": 22218
-          },
-          {
-            "src": "media/yoshi-moshi-17-9daf8c6357d3-720.webp",
-            "width": 720,
-            "bytes": 74238
-          },
-          {
-            "src": "media/yoshi-moshi-17-9daf8c6357d3-1200.webp",
-            "width": 1200,
-            "bytes": 160452
-          },
-          {
-            "src": "media/yoshi-moshi-17-9daf8c6357d3-1400.webp",
-            "width": 1400,
-            "bytes": 203524
-          }
-        ],
-        "originalBytes": 981489,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-16-0a354bc4af58-1400.webp",
-        "width": 1400,
-        "height": 932,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-16-0a354bc4af58-360.webp",
-            "width": 360,
-            "bytes": 15596
-          },
-          {
-            "src": "media/yoshi-moshi-16-0a354bc4af58-720.webp",
-            "width": 720,
-            "bytes": 48400
-          },
-          {
-            "src": "media/yoshi-moshi-16-0a354bc4af58-1200.webp",
-            "width": 1200,
-            "bytes": 104624
-          },
-          {
-            "src": "media/yoshi-moshi-16-0a354bc4af58-1400.webp",
-            "width": 1400,
-            "bytes": 130384
-          }
-        ],
-        "originalBytes": 1029278,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1400.webp",
-        "width": 1400,
-        "height": 930,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-15-03e7e0b1cbaa-360.webp",
-            "width": 360,
-            "bytes": 7540
-          },
-          {
-            "src": "media/yoshi-moshi-15-03e7e0b1cbaa-720.webp",
-            "width": 720,
-            "bytes": 22616
-          },
-          {
-            "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1200.webp",
-            "width": 1200,
-            "bytes": 50894
-          },
-          {
-            "src": "media/yoshi-moshi-15-03e7e0b1cbaa-1400.webp",
-            "width": 1400,
-            "bytes": 64508
-          }
-        ],
-        "originalBytes": 858068,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-1-f6a3dc5b3f80-1024.webp",
-        "width": 1024,
-        "height": 768,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-1-f6a3dc5b3f80-360.webp",
-            "width": 360,
-            "bytes": 24956
-          },
-          {
-            "src": "media/yoshi-moshi-1-f6a3dc5b3f80-720.webp",
-            "width": 720,
-            "bytes": 79766
-          },
-          {
-            "src": "media/yoshi-moshi-1-f6a3dc5b3f80-1024.webp",
-            "width": 1024,
-            "bytes": 139768
-          }
-        ],
-        "originalBytes": 469975,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1400.webp",
-        "width": 1400,
-        "height": 931,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-14-7cf6c2cf69ea-360.webp",
-            "width": 360,
-            "bytes": 28948
-          },
-          {
-            "src": "media/yoshi-moshi-14-7cf6c2cf69ea-720.webp",
-            "width": 720,
-            "bytes": 119972
-          },
-          {
-            "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1200.webp",
-            "width": 1200,
-            "bytes": 299420
-          },
-          {
-            "src": "media/yoshi-moshi-14-7cf6c2cf69ea-1400.webp",
-            "width": 1400,
-            "bytes": 392210
-          }
-        ],
-        "originalBytes": 1694780,
-        "alt": "Yoshi + Moshi"
-      },
-      {
-        "src": "media/yoshi-moshi-13-05274e6f8e15-1400.webp",
-        "width": 1400,
-        "height": 931,
-        "variants": [
-          {
-            "src": "media/yoshi-moshi-13-05274e6f8e15-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-103-360.webp",
             "width": 360,
             "bytes": 19104
           },
           {
-            "src": "media/yoshi-moshi-13-05274e6f8e15-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-103-720.webp",
             "width": 720,
-            "bytes": 82100
+            "bytes": 58502
           },
           {
-            "src": "media/yoshi-moshi-13-05274e6f8e15-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-103-1200.webp",
             "width": 1200,
-            "bytes": 200480
+            "bytes": 151390
           },
           {
-            "src": "media/yoshi-moshi-13-05274e6f8e15-1400.webp",
-            "width": 1400,
-            "bytes": 260368
+            "src": "media/gallery-new-yoshi-moshi-103-1920.webp",
+            "width": 1920,
+            "bytes": 356360
           }
         ],
-        "originalBytes": 1368620,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 2126447,
+        "alt": "Yoshi + Moshi — photograph 3"
       },
       {
-        "src": "media/yoshi-moshi-12-660a6a0fa83b-1400.webp",
-        "width": 1400,
-        "height": 931,
+        "src": "media/gallery-new-yoshi-moshi-104-1920.webp",
+        "width": 1920,
+        "height": 1281,
         "variants": [
           {
-            "src": "media/yoshi-moshi-12-660a6a0fa83b-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-104-360.webp",
             "width": 360,
-            "bytes": 13052
+            "bytes": 26692
           },
           {
-            "src": "media/yoshi-moshi-12-660a6a0fa83b-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-104-720.webp",
             "width": 720,
-            "bytes": 38210
+            "bytes": 85970
           },
           {
-            "src": "media/yoshi-moshi-12-660a6a0fa83b-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-104-1200.webp",
             "width": 1200,
-            "bytes": 75464
+            "bytes": 193456
           },
           {
-            "src": "media/yoshi-moshi-12-660a6a0fa83b-1400.webp",
-            "width": 1400,
-            "bytes": 92528
+            "src": "media/gallery-new-yoshi-moshi-104-1920.webp",
+            "width": 1920,
+            "bytes": 402880
           }
         ],
-        "originalBytes": 863504,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 2253423,
+        "alt": "Yoshi + Moshi — photograph 4"
       },
       {
-        "src": "media/yoshi-moshi-11-85009b11c42b-1400.webp",
-        "width": 1400,
-        "height": 931,
+        "src": "media/gallery-new-yoshi-moshi-105-1920.webp",
+        "width": 1920,
+        "height": 1257,
         "variants": [
           {
-            "src": "media/yoshi-moshi-11-85009b11c42b-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-105-360.webp",
             "width": 360,
-            "bytes": 10270
+            "bytes": 14462
           },
           {
-            "src": "media/yoshi-moshi-11-85009b11c42b-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-105-720.webp",
             "width": 720,
-            "bytes": 37436
+            "bytes": 41594
           },
           {
-            "src": "media/yoshi-moshi-11-85009b11c42b-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-105-1200.webp",
             "width": 1200,
-            "bytes": 91966
+            "bytes": 92092
           },
           {
-            "src": "media/yoshi-moshi-11-85009b11c42b-1400.webp",
-            "width": 1400,
-            "bytes": 120644
+            "src": "media/gallery-new-yoshi-moshi-105-1920.webp",
+            "width": 1920,
+            "bytes": 221862
           }
         ],
-        "originalBytes": 1047793,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 1701235,
+        "alt": "Yoshi + Moshi — photograph 5"
       },
       {
-        "src": "media/yoshi-moshi-10-ff55351e66e1-1400.webp",
-        "width": 1400,
-        "height": 931,
+        "src": "media/gallery-new-yoshi-moshi-106-1920.webp",
+        "width": 1920,
+        "height": 1284,
         "variants": [
           {
-            "src": "media/yoshi-moshi-10-ff55351e66e1-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-106-360.webp",
             "width": 360,
-            "bytes": 36510
+            "bytes": 15338
           },
           {
-            "src": "media/yoshi-moshi-10-ff55351e66e1-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-106-720.webp",
             "width": 720,
-            "bytes": 142230
+            "bytes": 45382
           },
           {
-            "src": "media/yoshi-moshi-10-ff55351e66e1-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-106-1200.webp",
             "width": 1200,
-            "bytes": 356376
+            "bytes": 102408
           },
           {
-            "src": "media/yoshi-moshi-10-ff55351e66e1-1400.webp",
-            "width": 1400,
-            "bytes": 461376
+            "src": "media/gallery-new-yoshi-moshi-106-1920.webp",
+            "width": 1920,
+            "bytes": 244522
           }
         ],
-        "originalBytes": 2109332,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 1734683,
+        "alt": "Yoshi + Moshi — photograph 6"
       },
       {
-        "src": "media/yoshi-moshi-7-629cde9f3731-1400.webp",
-        "width": 1400,
-        "height": 933,
+        "src": "media/gallery-new-yoshi-moshi-107-1920.webp",
+        "width": 1920,
+        "height": 1125,
         "variants": [
           {
-            "src": "media/yoshi-moshi-7-629cde9f3731-360.webp",
+            "src": "media/gallery-new-yoshi-moshi-107-360.webp",
             "width": 360,
-            "bytes": 20192
+            "bytes": 16096
           },
           {
-            "src": "media/yoshi-moshi-7-629cde9f3731-720.webp",
+            "src": "media/gallery-new-yoshi-moshi-107-720.webp",
             "width": 720,
-            "bytes": 69302
+            "bytes": 44628
           },
           {
-            "src": "media/yoshi-moshi-7-629cde9f3731-1200.webp",
+            "src": "media/gallery-new-yoshi-moshi-107-1200.webp",
             "width": 1200,
-            "bytes": 150468
+            "bytes": 92346
           },
           {
-            "src": "media/yoshi-moshi-7-629cde9f3731-1400.webp",
-            "width": 1400,
-            "bytes": 190746
+            "src": "media/gallery-new-yoshi-moshi-107-1920.webp",
+            "width": 1920,
+            "bytes": 179410
           }
         ],
-        "originalBytes": 1169540,
-        "alt": "Yoshi + Moshi"
+        "originalBytes": 1480396,
+        "alt": "Yoshi + Moshi — photograph 7"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-108-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-108-360.webp",
+            "width": 360,
+            "bytes": 18480
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-108-720.webp",
+            "width": 720,
+            "bytes": 92766
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-108-1200.webp",
+            "width": 1200,
+            "bytes": 277292
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-108-1920.webp",
+            "width": 1920,
+            "bytes": 635126
+          }
+        ],
+        "originalBytes": 2980556,
+        "alt": "Yoshi + Moshi — photograph 8"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-109-1281.webp",
+        "width": 1281,
+        "height": 1920,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-109-360.webp",
+            "width": 360,
+            "bytes": 22814
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-109-720.webp",
+            "width": 720,
+            "bytes": 52334
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-109-1200.webp",
+            "width": 1200,
+            "bytes": 101988
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-109-1281.webp",
+            "width": 1281,
+            "bytes": 117412
+          }
+        ],
+        "originalBytes": 1194207,
+        "alt": "Yoshi + Moshi — photograph 9"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-110-1920.webp",
+        "width": 1920,
+        "height": 1440,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-110-360.webp",
+            "width": 360,
+            "bytes": 41198
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-110-720.webp",
+            "width": 720,
+            "bytes": 170714
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-110-1200.webp",
+            "width": 1200,
+            "bytes": 460018
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-110-1920.webp",
+            "width": 1920,
+            "bytes": 1019586
+          }
+        ],
+        "originalBytes": 3774737,
+        "alt": "Yoshi + Moshi — photograph 10"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-111-1920.webp",
+        "width": 1920,
+        "height": 1080,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-111-360.webp",
+            "width": 360,
+            "bytes": 14816
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-111-720.webp",
+            "width": 720,
+            "bytes": 53612
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-111-1200.webp",
+            "width": 1200,
+            "bytes": 123668
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-111-1920.webp",
+            "width": 1920,
+            "bytes": 225302
+          }
+        ],
+        "originalBytes": 1253834,
+        "alt": "Yoshi + Moshi — photograph 11"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-112-1920.webp",
+        "width": 1920,
+        "height": 1279,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-112-360.webp",
+            "width": 360,
+            "bytes": 8464
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-112-720.webp",
+            "width": 720,
+            "bytes": 25300
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-112-1200.webp",
+            "width": 1200,
+            "bytes": 49790
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-112-1920.webp",
+            "width": 1920,
+            "bytes": 89406
+          }
+        ],
+        "originalBytes": 952466,
+        "alt": "Yoshi + Moshi — photograph 12"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-114-1920.webp",
+        "width": 1920,
+        "height": 1440,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-114-360.webp",
+            "width": 360,
+            "bytes": 13552
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-114-720.webp",
+            "width": 720,
+            "bytes": 46924
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-114-1200.webp",
+            "width": 1200,
+            "bytes": 121018
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-114-1920.webp",
+            "width": 1920,
+            "bytes": 296944
+          }
+        ],
+        "originalBytes": 1820486,
+        "alt": "Yoshi + Moshi — photograph 13"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-115-1920.webp",
+        "width": 1920,
+        "height": 1080,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-115-360.webp",
+            "width": 360,
+            "bytes": 21786
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-115-720.webp",
+            "width": 720,
+            "bytes": 60858
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-115-1200.webp",
+            "width": 1200,
+            "bytes": 116914
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-115-1920.webp",
+            "width": 1920,
+            "bytes": 206862
+          }
+        ],
+        "originalBytes": 1604441,
+        "alt": "Yoshi + Moshi — photograph 14"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-116-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-116-360.webp",
+            "width": 360,
+            "bytes": 31642
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-116-720.webp",
+            "width": 720,
+            "bytes": 133988
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-116-1200.webp",
+            "width": 1200,
+            "bytes": 356678
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-116-1920.webp",
+            "width": 1920,
+            "bytes": 771942
+          }
+        ],
+        "originalBytes": 3375143,
+        "alt": "Yoshi + Moshi — photograph 15"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-117-1920.webp",
+        "width": 1920,
+        "height": 1081,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-117-360.webp",
+            "width": 360,
+            "bytes": 22074
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-117-720.webp",
+            "width": 720,
+            "bytes": 75478
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-117-1200.webp",
+            "width": 1200,
+            "bytes": 165560
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-117-1920.webp",
+            "width": 1920,
+            "bytes": 285918
+          }
+        ],
+        "originalBytes": 1563498,
+        "alt": "Yoshi + Moshi — photograph 16"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-118-1920.webp",
+        "width": 1920,
+        "height": 1080,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-118-360.webp",
+            "width": 360,
+            "bytes": 15340
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-118-720.webp",
+            "width": 720,
+            "bytes": 42786
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-118-1200.webp",
+            "width": 1200,
+            "bytes": 81246
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-118-1920.webp",
+            "width": 1920,
+            "bytes": 140666
+          }
+        ],
+        "originalBytes": 1093325,
+        "alt": "Yoshi + Moshi — photograph 17"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-121-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-121-360.webp",
+            "width": 360,
+            "bytes": 33110
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-121-720.webp",
+            "width": 720,
+            "bytes": 129146
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-121-1200.webp",
+            "width": 1200,
+            "bytes": 297616
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-121-1920.webp",
+            "width": 1920,
+            "bytes": 526664
+          }
+        ],
+        "originalBytes": 2372679,
+        "alt": "Yoshi + Moshi — photograph 18"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-122-1920.webp",
+        "width": 1920,
+        "height": 1239,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-122-360.webp",
+            "width": 360,
+            "bytes": 16498
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-122-720.webp",
+            "width": 720,
+            "bytes": 50708
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-122-1200.webp",
+            "width": 1200,
+            "bytes": 121170
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-122-1920.webp",
+            "width": 1920,
+            "bytes": 294744
+          }
+        ],
+        "originalBytes": 1812896,
+        "alt": "Yoshi + Moshi — photograph 19"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-123-1920.webp",
+        "width": 1920,
+        "height": 1440,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-123-360.webp",
+            "width": 360,
+            "bytes": 7874
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-123-720.webp",
+            "width": 720,
+            "bytes": 21882
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-123-1200.webp",
+            "width": 1200,
+            "bytes": 48924
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-123-1920.webp",
+            "width": 1920,
+            "bytes": 105062
+          }
+        ],
+        "originalBytes": 1393673,
+        "alt": "Yoshi + Moshi — photograph 20"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-124-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-124-360.webp",
+            "width": 360,
+            "bytes": 29468
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-124-720.webp",
+            "width": 720,
+            "bytes": 120052
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-124-1200.webp",
+            "width": 1200,
+            "bytes": 270706
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-124-1920.webp",
+            "width": 1920,
+            "bytes": 461340
+          }
+        ],
+        "originalBytes": 2234346,
+        "alt": "Yoshi + Moshi — photograph 21"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-125-1440.webp",
+        "width": 1440,
+        "height": 1920,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-125-360.webp",
+            "width": 360,
+            "bytes": 61400
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-125-720.webp",
+            "width": 720,
+            "bytes": 204570
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-125-1200.webp",
+            "width": 1200,
+            "bytes": 402828
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-125-1440.webp",
+            "width": 1440,
+            "bytes": 493124
+          }
+        ],
+        "originalBytes": 2263653,
+        "alt": "Yoshi + Moshi — photograph 22"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-126-1920.webp",
+        "width": 1920,
+        "height": 1440,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-126-360.webp",
+            "width": 360,
+            "bytes": 27168
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-126-720.webp",
+            "width": 720,
+            "bytes": 84222
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-126-1200.webp",
+            "width": 1200,
+            "bytes": 168092
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-126-1920.webp",
+            "width": 1920,
+            "bytes": 285928
+          }
+        ],
+        "originalBytes": 1666176,
+        "alt": "Yoshi + Moshi — photograph 23"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-127-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-127-360.webp",
+            "width": 360,
+            "bytes": 18494
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-127-720.webp",
+            "width": 720,
+            "bytes": 62578
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-127-1200.webp",
+            "width": 1200,
+            "bytes": 123314
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-127-1920.webp",
+            "width": 1920,
+            "bytes": 209288
+          }
+        ],
+        "originalBytes": 1408590,
+        "alt": "Yoshi + Moshi — photograph 24"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-128-1920.webp",
+        "width": 1920,
+        "height": 1279,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-128-360.webp",
+            "width": 360,
+            "bytes": 10280
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-128-720.webp",
+            "width": 720,
+            "bytes": 33760
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-128-1200.webp",
+            "width": 1200,
+            "bytes": 81930
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-128-1920.webp",
+            "width": 1920,
+            "bytes": 185076
+          }
+        ],
+        "originalBytes": 337751,
+        "alt": "Yoshi + Moshi — photograph 25"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-129-1920.webp",
+        "width": 1920,
+        "height": 1440,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-129-360.webp",
+            "width": 360,
+            "bytes": 18792
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-129-720.webp",
+            "width": 720,
+            "bytes": 75992
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-129-1200.webp",
+            "width": 1200,
+            "bytes": 169006
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-129-1920.webp",
+            "width": 1920,
+            "bytes": 293096
+          }
+        ],
+        "originalBytes": 1409051,
+        "alt": "Yoshi + Moshi — photograph 26"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-130-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-130-360.webp",
+            "width": 360,
+            "bytes": 11232
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-130-720.webp",
+            "width": 720,
+            "bytes": 39658
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-130-1200.webp",
+            "width": 1200,
+            "bytes": 85410
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-130-1920.webp",
+            "width": 1920,
+            "bytes": 152014
+          }
+        ],
+        "originalBytes": 1241684,
+        "alt": "Yoshi + Moshi — photograph 27"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-131-1920.webp",
+        "width": 1920,
+        "height": 1278,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-131-360.webp",
+            "width": 360,
+            "bytes": 14294
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-131-720.webp",
+            "width": 720,
+            "bytes": 40250
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-131-1200.webp",
+            "width": 1200,
+            "bytes": 77614
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-131-1920.webp",
+            "width": 1920,
+            "bytes": 135120
+          }
+        ],
+        "originalBytes": 1207816,
+        "alt": "Yoshi + Moshi — photograph 28"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-132-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-132-360.webp",
+            "width": 360,
+            "bytes": 16936
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-132-720.webp",
+            "width": 720,
+            "bytes": 45750
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-132-1200.webp",
+            "width": 1200,
+            "bytes": 83326
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-132-1920.webp",
+            "width": 1920,
+            "bytes": 141502
+          }
+        ],
+        "originalBytes": 1115361,
+        "alt": "Yoshi + Moshi — photograph 29"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-133-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-133-360.webp",
+            "width": 360,
+            "bytes": 20450
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-133-720.webp",
+            "width": 720,
+            "bytes": 64510
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-133-1200.webp",
+            "width": 1200,
+            "bytes": 128728
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-133-1920.webp",
+            "width": 1920,
+            "bytes": 222402
+          }
+        ],
+        "originalBytes": 1229696,
+        "alt": "Yoshi + Moshi — photograph 30"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-134-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-134-360.webp",
+            "width": 360,
+            "bytes": 18258
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-134-720.webp",
+            "width": 720,
+            "bytes": 47780
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-134-1200.webp",
+            "width": 1200,
+            "bytes": 87200
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-134-1920.webp",
+            "width": 1920,
+            "bytes": 146018
+          }
+        ],
+        "originalBytes": 1108399,
+        "alt": "Yoshi + Moshi — photograph 31"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-135-1920.webp",
+        "width": 1920,
+        "height": 1277,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-135-360.webp",
+            "width": 360,
+            "bytes": 11948
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-135-720.webp",
+            "width": 720,
+            "bytes": 33922
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-135-1200.webp",
+            "width": 1200,
+            "bytes": 63950
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-135-1920.webp",
+            "width": 1920,
+            "bytes": 106966
+          }
+        ],
+        "originalBytes": 942855,
+        "alt": "Yoshi + Moshi — photograph 32"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-136-1920.webp",
+        "width": 1920,
+        "height": 1275,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-136-360.webp",
+            "width": 360,
+            "bytes": 6814
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-136-720.webp",
+            "width": 720,
+            "bytes": 18394
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-136-1200.webp",
+            "width": 1200,
+            "bytes": 34590
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-136-1920.webp",
+            "width": 1920,
+            "bytes": 65724
+          }
+        ],
+        "originalBytes": 883558,
+        "alt": "Yoshi + Moshi — photograph 33"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-137-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-137-360.webp",
+            "width": 360,
+            "bytes": 8420
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-137-720.webp",
+            "width": 720,
+            "bytes": 22480
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-137-1200.webp",
+            "width": 1200,
+            "bytes": 42460
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-137-1920.webp",
+            "width": 1920,
+            "bytes": 73768
+          }
+        ],
+        "originalBytes": 846702,
+        "alt": "Yoshi + Moshi — photograph 34"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-138-1920.webp",
+        "width": 1920,
+        "height": 1279,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-138-360.webp",
+            "width": 360,
+            "bytes": 12254
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-138-720.webp",
+            "width": 720,
+            "bytes": 36820
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-138-1200.webp",
+            "width": 1200,
+            "bytes": 72184
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-138-1920.webp",
+            "width": 1920,
+            "bytes": 120178
+          }
+        ],
+        "originalBytes": 992964,
+        "alt": "Yoshi + Moshi — photograph 35"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-140-1920.webp",
+        "width": 1920,
+        "height": 1276,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-140-360.webp",
+            "width": 360,
+            "bytes": 16720
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-140-720.webp",
+            "width": 720,
+            "bytes": 44886
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-140-1200.webp",
+            "width": 1200,
+            "bytes": 80796
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-140-1920.webp",
+            "width": 1920,
+            "bytes": 134562
+          }
+        ],
+        "originalBytes": 1103394,
+        "alt": "Yoshi + Moshi — photograph 36"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-141-1448.webp",
+        "width": 1448,
+        "height": 1086,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-141-360.webp",
+            "width": 360,
+            "bytes": 25030
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-141-720.webp",
+            "width": 720,
+            "bytes": 81414
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-141-1200.webp",
+            "width": 1200,
+            "bytes": 179802
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-141-1448.webp",
+            "width": 1448,
+            "bytes": 237152
+          }
+        ],
+        "originalBytes": 1267752,
+        "alt": "Yoshi + Moshi — photograph 37"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-142-1920.webp",
+        "width": 1920,
+        "height": 1081,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-142-360.webp",
+            "width": 360,
+            "bytes": 10866
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-142-720.webp",
+            "width": 720,
+            "bytes": 32402
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-142-1200.webp",
+            "width": 1200,
+            "bytes": 67084
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-142-1920.webp",
+            "width": 1920,
+            "bytes": 118154
+          }
+        ],
+        "originalBytes": 983380,
+        "alt": "Yoshi + Moshi — photograph 38"
+      },
+      {
+        "src": "media/gallery-new-yoshi-moshi-143-1920.webp",
+        "width": 1920,
+        "height": 1287,
+        "variants": [
+          {
+            "src": "media/gallery-new-yoshi-moshi-143-360.webp",
+            "width": 360,
+            "bytes": 17938
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-143-720.webp",
+            "width": 720,
+            "bytes": 47604
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-143-1200.webp",
+            "width": 1200,
+            "bytes": 89604
+          },
+          {
+            "src": "media/gallery-new-yoshi-moshi-143-1920.webp",
+            "width": 1920,
+            "bytes": 153798
+          }
+        ],
+        "originalBytes": 1083478,
+        "alt": "Yoshi + Moshi — photograph 39"
       }
     ]
   },
