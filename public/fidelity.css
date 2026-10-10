@@ -57,13 +57,13 @@ h1{font-weight:800;letter-spacing:-.02em;line-height:.78}
 .picture-card{background:transparent;padding:0;border:0;outline:1px solid transparent;outline-offset:4px;transition:outline-color .2s}
 .picture-card:hover,.picture-card:focus-visible{outline-color:var(--white)}
 .picture-card{overflow:hidden}.picture-card img{transition:transform .55s ease}.picture-card:hover img,.picture-card:focus-visible img{transform:scale(1.045)}
-.about-content{display:grid;grid-template-columns:minmax(0,1fr);row-gap:clamp(28px,3.5vw,54px)}
+.about-content{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr);row-gap:clamp(28px,3.5vw,54px)}
 .about-content .page-intro{margin:0;padding:0}
 .about-content .intro-panel{margin:clamp(28px,4vw,48px) 0 0;border:0}
-.timeline-section{margin:0;letter-spacing:.005em;line-height:1.45}
+.timeline-section{margin:0;padding-top:clamp(18px,2.5vw,30px);border-top:0;letter-spacing:.005em;line-height:1.45}
 .timeline-section h2{font-size:clamp(1.15rem,2vw,1.65rem);line-height:1.2;letter-spacing:.06em}
-.timeline-section dl>div{line-height:1.35}.timeline-section dl>div:last-child{margin-bottom:0}
-.timeline-section li:last-child{margin-bottom:0}
+.timeline-section ul{display:grid;gap:10px}
+.timeline-section li{margin:0;padding:0}
 .contact-layout{font-size:24px;line-height:42px;grid-template-columns:36.4% minmax(0,1fr);gap:6%;width:calc(84% - 100px);padding-top:calc(clamp(120px,13vw,225px) + 35px)}
 .contact-copy p{margin:20.4px 0}.contact-copy p:first-child{margin-top:20.4px}
 .email-button{font-size:24px;line-height:1.2;padding:25px 50px 23px;border:1px solid var(--white);margin:3px 0}

@@ -1,0 +1,22 @@
+{
+  "lede": "live and work in Mendrisio TI, Switzerland",
+  "panel": "<p>Yoshi + Moshi are not easy to sum up. They turn up in performances, films and exhibitions, usually with a few surprises. A biography helps, but only up to a point. Anyway, some dates and places below.</p>",
+  "sections": [
+    {
+      "title": "Biography",
+      "html": "<dl><div><dt>2020</dt><dd><ul><li>Artists in residence, Fondazione Sciaredo, Barbengo (CH)</li></ul></dd></div><div><dt>2013</dt><dd><ul><li>Artists in residence, ORF III TV studio, Vienna (AT)</li></ul></dd></div></dl>"
+    },
+    {
+      "title": "Performances",
+      "html": "<dl><div><dt>2025</dt><dd><ul><li>TRIBUTE including Severin Hofer, Gallery Billing, Baar (CH)</li></ul></dd></div><div><dt>2024</dt><dd><ul><li>Occupy Superba, Galata – Museo del Mare, Genoa (IT)</li></ul></dd></div><div><dt>2023</dt><dd><ul><li>The Comeback Tour, Bar Delle Vigne, Genoa (IT)</li></ul></dd></div><div><dt>2022</dt><dd><ul><li>Universo Immersivo, Nidwalden Art Museum, Stans (CH)</li></ul></dd></div><div><dt>2021</dt><dd><ul><li>IDÉE REÇUE, MACT/CACT Museo d’Arte Contemporanea Ticino, Bellinzona (CH)</li></ul></dd></div><div><dt>2020</dt><dd><ul><li>Movie World Tour, Bar Delle Vigne, Genoa (IT)</li></ul></dd></div><div><dt>2014</dt><dd><ul><li>Last Supper, gallery Weiertal, Winterthur (CH)</li></ul></dd></div><div><dt>2012</dt><dd><ul><li>A feast for Yoshi + Moshi, performance-series, Cabaret Voltaire, Zurich / Kunsthalle Lucerne (CH)</li><li>The Last Supper, Substitut– contemporary art from Switzerland, Berlin (GER)</li><li>Culture Clash, Kunstpause, Zug (CH)</li></ul></dd></div></dl>"
+    },
+    {
+      "title": "Film/ Documentations",
+      "html": "<dl><div><dt>2025</dt><dd><ul><li>THE TOWER, Ligornetto (CH)</li></ul></dd></div><div><dt>2024</dt><dd><ul><li>EXIT RIGHT, Ligornetto (CH)</li><li>Enigma Code, Chiasso (CH)</li></ul></dd></div><div><dt>2023</dt><dd><ul><li>Háblame, Malnate (IT) &amp; Buenos Aires (ARG)</li></ul></dd></div><div><dt>2020</dt><dd><ul><li>YOSHI&nbsp; + MOSHI – Movie World Tour, Barbengo (CH) &amp; Genoa (IT)</li></ul></dd></div><div><dt>2019</dt><dd><ul><li>FACE YOSHI, Fano (IT)</li></ul></dd></div><div><dt>2016</dt><dd><ul><li>LOST LOST, Labenne (FR)</li></ul></dd></div><div><dt>2013</dt><dd><ul><li>Occupy ORF – A feast for Yoshi + Moshi, 30 min. TV movie, ORF III, Vienna (AT)</li><li>Homeless, Hossegor (FR)</li></ul></dd></div><div><dt>2012</dt><dd><ul><li>Culture Clash, Berlin (GER)</li><li>A Feast for Yoshi + Moshi, gallery of contemporary art of Lucerne (CH)</li><li>A Feast for Yoshi + Moshi, Cabaret Voltaire, Zurich (CH)</li><li>Last Supper, Zug (CH)</li><li>Chou de Voltaire, Zug (CH)</li></ul></dd></div></dl>"
+    },
+    {
+      "title": "Group Shows",
+      "html": "<dl><div><dt>2026</dt><dd><ul><li>LE LATITUDINI DELL’ARTE – tappa Svizzera, Villa Santa Lucia, Melano (CH)</li></ul></dd></div><div><dt>2024</dt><dd><ul><li>“Around the sea”, LE LATITUDINI DELL’ARTE – Italia e Svizzera, Galata – museo del mare,&nbsp; Genoa (IT)</li></ul></dd></div><div><dt>2023</dt><dd><ul><li>National Visual Arts Salon of Argentina with Alejandro Thornton, Centro Cultural Kirchner, Buenos Aires (ARG)</li><li>HBLM / TLKM (hablame / talk to me) with Alejandro Thornton, Pabellón 4 Arte Contemporáneo, Buenos Aires (ARG)</li></ul></dd></div><div><dt>2014</dt><dd><ul><li>Heller Wahnsinn, VOEGELE Cultural Center, Pfaeffikon (CH)</li></ul></dd></div><div><dt>2011</dt><dd><ul><li>Nel segno della donna, film, Villa Croce, Museum of Contemporary Art of Genoa (IT)</li></ul></dd></div></dl>"
+    }
+  ]
+}
