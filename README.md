@@ -1,6 +1,6 @@
 # Yoshi + Moshi — eigenständige Website
 
-Statische, WordPress-unabhängige Version der aktuellen Künstlerwebsite. Die Website verwendet ausschließlich HTML, CSS und kleines natives JavaScript. Keine Datenbank, kein PHP, kein Framework und keine Plugins. Google Analytics wird mit der Mess-ID `G-WHJSPCQ7WX` geladen.
+Statische, WordPress-unabhängige Version der aktuellen Künstlerwebsite. Die Website verwendet ausschließlich HTML, CSS und kleines natives JavaScript. Keine Datenbank, kein PHP, kein Framework und keine Plugins. Google Analytics wird mit der Mess-ID `G-GLZ0H84MBV` geladen.
 
 ## Lokal ansehen
 

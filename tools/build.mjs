@@ -30,7 +30,7 @@ const siteUrl=(process.env.SITE_URL||'').replace(/\/$/,'');
 const routes=['','news','performances','films','pictures','about','contact'];
 const names=['Yoshi + Moshi','News','Performances','Films','Pictures','About','Contact'];
 const descriptions={home:'Yoshi + Moshi: artists, performances, films and exhibitions. Live and work in Mendrisio TI, Switzerland.',news:'Latest exhibitions, films and encounters from Yoshi + Moshi.',performances:'Explore the live performances of Yoshi + Moshi.',films:'Short films, live moments and moving images by Yoshi + Moshi.',pictures:'Photographs of Yoshi + Moshi on stage, on the road and in between.',about:'Biography, performances, films and exhibitions of Yoshi + Moshi.',contact:'Contact Yoshi + Moshi artists in Mendrisio, Switzerland.'};
-const analyticsId='G-WHJSPCQ7WX';
+const analyticsId='G-GLZ0H84MBV';
 const analytics=`<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>
 <script>
