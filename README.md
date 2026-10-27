@@ -1,6 +1,6 @@
 # Yoshi + Moshi — eigenständige Website
 
-Statische, WordPress-unabhängige Version der aktuellen Künstlerwebsite. Die Website verwendet ausschließlich HTML, CSS und kleines natives JavaScript. Keine Datenbank, kein PHP, kein Framework und keine Plugins. Google Analytics wird mit der Mess-ID `G-GLZ0H84MBV` geladen.
+Statische, WordPress-unabhängige Version der aktuellen Künstlerwebsite. Die Website verwendet ausschließlich HTML, CSS und kleines natives JavaScript. Keine Datenbank, kein PHP, kein Framework und keine Plugins. Google Analytics wird mit der Mess-ID `G-GLZ0H84MBV` über die lokale Consent-Steuerung geladen.
 
 ## Lokal ansehen
 
@@ -53,7 +53,7 @@ Der anschließende visuelle Abgleich und die Referenzmaße sind in `FIDELITY.md`
 - Native Dialoge mit Tastaturbedienung, Escape-Schließen und Fokusverwaltung.
 - Responsive, exakt zentrierte Navigation, die von oben herunterkommt.
 - Rücksicht auf reduzierte Bewegung und Datensparmodus.
-- Kein WordPress-/Enfold-Code und keine jQuery-Abhängigkeit; Google Analytics ist zentral im Seitengenerator eingebunden.
+- Kein WordPress-/Enfold-Code und keine jQuery-Abhängigkeit; Google Analytics ist zentral im Seitengenerator eingebunden und kann auf der Privacy-Seite abgeschaltet werden.
 - Metadaten, Sprachangabe, Favicon, robots.txt, optionale Sitemap und GitHub-Pages-Workflow.
 
 Alle künstlerischen Inhalte und Medien bleiben Eigentum ihrer jeweiligen Rechteinhaber. Die Oswald-Schrift steht unter der beiliegenden SIL Open Font License.
