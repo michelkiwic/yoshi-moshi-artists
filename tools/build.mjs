@@ -30,6 +30,15 @@ const siteUrl=(process.env.SITE_URL||'').replace(/\/$/,'');
 const routes=['','news','performances','films','pictures','about','contact'];
 const names=['Yoshi + Moshi','News','Performances','Films','Pictures','About','Contact'];
 const descriptions={home:'Yoshi + Moshi: artists, performances, films and exhibitions. Live and work in Mendrisio TI, Switzerland.',news:'Latest exhibitions, films and encounters from Yoshi + Moshi.',performances:'Explore the live performances of Yoshi + Moshi.',films:'Short films, live moments and moving images by Yoshi + Moshi.',pictures:'Photographs of Yoshi + Moshi on stage, on the road and in between.',about:'Biography, performances, films and exhibitions of Yoshi + Moshi.',contact:'Contact Yoshi + Moshi artists in Mendrisio, Switzerland.'};
+const analyticsId='G-WHJSPCQ7WX';
+const analytics=`<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${analyticsId}');
+</script>`;
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let prefix='';
 const url=s=>prefix+s;
@@ -81,7 +90,7 @@ for(const route of routes){
   const title=page==='home'?'Yoshi + Moshi':`${names[routes.indexOf(route)]} — Yoshi + Moshi`;
   const canonical=siteUrl?`${siteUrl}/${route?route+'/':''}`:'';
   const html=`<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070707"><title>${escape(title)}</title><meta name="description" content="${escape(descriptions[page])}">${canonical?`<link rel="canonical" href="${canonical}"><meta property="og:url" content="${canonical}">`:''}<meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(descriptions[page])}"><meta property="og:type" content="website"><link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml"><link rel="preload" href="${url(font.src)}" as="font" type="${font.src.endsWith('woff2')?'font/woff2':'font/ttf'}" crossorigin><link rel="stylesheet" href="${url('font.css')}"><link rel="stylesheet" href="${url('art.css')}"><link rel="stylesheet" href="${url('site.css')}"><script src="${url('site.js')}" defer></script></head>
+<html lang="en"><head>${analytics}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070707"><title>${escape(title)}</title><meta name="description" content="${escape(descriptions[page])}">${canonical?`<link rel="canonical" href="${canonical}"><meta property="og:url" content="${canonical}">`:''}<meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(descriptions[page])}"><meta property="og:type" content="website"><link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml"><link rel="preload" href="${url(font.src)}" as="font" type="${font.src.endsWith('woff2')?'font/woff2':'font/ttf'}" crossorigin><link rel="stylesheet" href="${url('font.css')}"><link rel="stylesheet" href="${url('art.css')}"><link rel="stylesheet" href="${url('site.css')}"><script src="${url('site.js')}" defer></script></head>
 <body class="page-${page}"><a class="skip-link" href="#main">Skip to content</a><header class="site-header">${heads()}${nav(route)}<button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="menu-dialog" aria-expanded="false"><span></span><span></span><span></span></button></header><div class="header-spacer"></div>${decoration(page)}<main id="main">${content(page)}</main><dialog class="menu-dialog" id="menu-dialog" aria-label="Navigation"><div class="menu-header">${heads()}<button class="close-menu" aria-label="Close navigation" type="button">×</button></div>${nav(route,true)}</dialog><dialog class="media-dialog" aria-label="Media viewer"><div class="dialog-bar"><h2></h2><button class="close-media" type="button" aria-label="Close media">×</button></div><div class="dialog-content"></div><div class="gallery-controls"><button type="button" data-direction="-1" aria-label="Previous photograph">←</button><span aria-live="polite"></span><button type="button" data-direction="1" aria-label="Next photograph">→</button></div></dialog></body></html>`;
   const dir=path.join(dist,route);
   await fs.mkdir(dir,{recursive:true});
