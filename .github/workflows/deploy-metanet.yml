@@ -1,0 +1,63 @@
+name: Build Metanet release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metanet-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current source
+        uses: actions/checkout@v4
+        with:
+          path: source
+
+      - name: Check out generated deployment branch
+        uses: actions/checkout@v4
+        with:
+          ref: metanet-deploy
+          fetch-depth: 0
+          path: deploy
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: source/package-lock.json
+
+      - name: Build and verify the production site
+        working-directory: source
+        env:
+          SITE_URL: https://yoshi-moshi.com
+        run: |
+          npm ci --ignore-scripts
+          npm run build
+          npm run check
+          cp build/metanet.htaccess dist/.htaccess
+
+      - name: Replace the generated deployment files
+        run: rsync -a --delete --exclude=.git source/dist/ deploy/
+
+      - name: Publish the generated branch
+        working-directory: deploy
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Deployment files are already current."
+            exit 0
+          fi
+          git commit -m "Deploy ${SOURCE_SHA:0:12}"
+          git push origin HEAD:metanet-deploy

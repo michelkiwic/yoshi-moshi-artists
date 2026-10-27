@@ -4,18 +4,21 @@ import { load } from 'cheerio';
 const root=path.resolve(import.meta.dirname,'..');
 const dist=path.join(root,'dist');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/site.json'),'utf8'));
-const routes=['','news','performances','films','pictures','about','contact'];
+const routes=['','news','performances','films','pictures','about','contact','privacy'];
 const analyticsId='G-GLZ0H84MBV';
 const errors=[];
 let checked=0;
+const consentSource=await fs.readFile(path.join(root,'public/consent.js'),'utf8');
+if(!consentSource.startsWith('(()=>{')||!consentSource.trimEnd().endsWith('})();'))errors.push('consent.js must keep its own scope to avoid global declaration collisions');
+if(!consentSource.includes(`const measurementId='${analyticsId}'`))errors.push('consent.js has the wrong Google Analytics measurement ID');
 for(const route of routes){
   const dir=path.join(dist,route);
   const html=await fs.readFile(path.join(dir,'index.html'),'utf8');
   const $=load(html);
   if($('h1').length!==1)errors.push(`${route||'home'}: expected exactly one h1`);
   if(!$('meta[name="description"]').attr('content'))errors.push(`${route}: missing description`);
-  if($(`script[src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"]`).length!==1)errors.push(`${route||'home'}: missing Google Analytics loader`);
-  if(!html.includes(`gtag('config', '${analyticsId}')`))errors.push(`${route||'home'}: missing Google Analytics configuration`);
+  if($('script[src*="consent.js"]').length!==1)errors.push(`${route||'home'}: missing consent-controlled Google Analytics loader`);
+  if($('script[src*="googletagmanager.com"]').length)errors.push(`${route||'home'}: Google Analytics must be loaded through consent.js`);
   if(/wp-content|wp-includes|jquery|yoshi-moshi-local\.local/i.test(html))errors.push(`${route}: contains a WordPress/local source dependency`);
   const refs=[];
   for(const attr of ['src','href','poster','data-film','data-loop','data-src']) $(`[${attr}]`).each((_,e)=>refs.push($(e).attr(attr)));
@@ -33,6 +36,7 @@ for(const route of routes){
   if(route==='films'&&$('[data-film]').length!==data.films.entries.length)errors.push('Film count does not match imported content');
   if(route==='news'&&$('.news-entry').length!==data.news.entries.length)errors.push('News count does not match imported content');
   if(route==='performances'&&$('.performance-card').length!==data.performances.entries.length)errors.push('Performance count does not match imported content');
+  if(route==='privacy'&&!$('#analytics-toggle').length)errors.push('Privacy page is missing analytics controls');
 }
 if(!data.performances.entries.length)errors.push('No performances imported');
 async function walk(dir){let result=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){const f=path.join(dir,e.name);if(e.isDirectory())result.push(...await walk(f));else result.push({path:f,size:(await fs.stat(f)).size});}return result;}
