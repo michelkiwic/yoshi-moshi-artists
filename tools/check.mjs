@@ -5,6 +5,7 @@ const root=path.resolve(import.meta.dirname,'..');
 const dist=path.join(root,'dist');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/site.json'),'utf8'));
 const routes=['','news','performances','films','pictures','about','contact'];
+const analyticsId='G-WHJSPCQ7WX';
 const errors=[];
 let checked=0;
 for(const route of routes){
@@ -13,6 +14,8 @@ for(const route of routes){
   const $=load(html);
   if($('h1').length!==1)errors.push(`${route||'home'}: expected exactly one h1`);
   if(!$('meta[name="description"]').attr('content'))errors.push(`${route}: missing description`);
+  if($(`script[src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"]`).length!==1)errors.push(`${route||'home'}: missing Google Analytics loader`);
+  if(!html.includes(`gtag('config', '${analyticsId}')`))errors.push(`${route||'home'}: missing Google Analytics configuration`);
   if(/wp-content|wp-includes|jquery|yoshi-moshi-local\.local/i.test(html))errors.push(`${route}: contains a WordPress/local source dependency`);
   const refs=[];
   for(const attr of ['src','href','poster','data-film','data-loop','data-src']) $(`[${attr}]`).each((_,e)=>refs.push($(e).attr(attr)));
