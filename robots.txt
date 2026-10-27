@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yoshi-moshi.com/sitemap.xml
