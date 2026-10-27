@@ -5,7 +5,7 @@ const root=path.resolve(import.meta.dirname,'..');
 const dist=path.join(root,'dist');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/site.json'),'utf8'));
 const routes=['','news','performances','films','pictures','about','contact'];
-const analyticsId='G-WHJSPCQ7WX';
+const analyticsId='G-GLZ0H84MBV';
 const errors=[];
 let checked=0;
 for(const route of routes){
